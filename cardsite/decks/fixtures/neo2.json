@@ -1,0 +1,1518 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-1",
+            "card_name": "Espeon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-2",
+            "card_name": "Forretress",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-3",
+            "card_name": "Hitmontop",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-4",
+            "card_name": "Houndoom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-5",
+            "card_name": "Houndour",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-6",
+            "card_name": "Kabutops",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-7",
+            "card_name": "Magnemite",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-8",
+            "card_name": "Politoed",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-9",
+            "card_name": "Poliwrath",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-10",
+            "card_name": "Scizor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-11",
+            "card_name": "Smeargle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-12",
+            "card_name": "Tyranitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-13",
+            "card_name": "Umbreon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-14",
+            "card_name": "Unown [A]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-15",
+            "card_name": "Ursaring",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-16",
+            "card_name": "Wobbuffet",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-17",
+            "card_name": "Yanma",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-18",
+            "card_name": "Beedrill",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-19",
+            "card_name": "Butterfree",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-20",
+            "card_name": "Espeon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-21",
+            "card_name": "Forretress",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-22",
+            "card_name": "Hitmontop",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-23",
+            "card_name": "Houndoom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-24",
+            "card_name": "Houndour",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-25",
+            "card_name": "Kabutops",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-26",
+            "card_name": "Magnemite",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-27",
+            "card_name": "Politoed",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-28",
+            "card_name": "Poliwrath",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-29",
+            "card_name": "Scizor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-30",
+            "card_name": "Smeargle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-31",
+            "card_name": "Tyranitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-32",
+            "card_name": "Umbreon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-33",
+            "card_name": "Unown [A]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-34",
+            "card_name": "Ursaring",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-35",
+            "card_name": "Wobbuffet",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-36",
+            "card_name": "Yanma",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-37",
+            "card_name": "Corsola",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-38",
+            "card_name": "Eevee",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-39",
+            "card_name": "Houndour",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-40",
+            "card_name": "Igglybuff",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Baby"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-41",
+            "card_name": "Kakuna",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-42",
+            "card_name": "Metapod",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-43",
+            "card_name": "Omastar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-44",
+            "card_name": "Poliwhirl",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-45",
+            "card_name": "Pupitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-46",
+            "card_name": "Scyther",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-47",
+            "card_name": "Unown [D]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-48",
+            "card_name": "Unown [F]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-49",
+            "card_name": "Unown [M]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-50",
+            "card_name": "Unown [N]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-51",
+            "card_name": "Unown [U]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-52",
+            "card_name": "Xatu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-53",
+            "card_name": "Caterpie",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-54",
+            "card_name": "Dunsparce",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-55",
+            "card_name": "Hoppip",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-56",
+            "card_name": "Kabuto",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-57",
+            "card_name": "Larvitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-58",
+            "card_name": "Mareep",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-59",
+            "card_name": "Natu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-60",
+            "card_name": "Omanyte",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-61",
+            "card_name": "Pineco",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-62",
+            "card_name": "Poliwag",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-63",
+            "card_name": "Sentret",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-64",
+            "card_name": "Spinarak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-65",
+            "card_name": "Teddiursa",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-66",
+            "card_name": "Tyrogue",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Baby"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [
+                "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent announces an attack, your opponent flips a coin (before doing anything else). If tails, your opponent's turn ends."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-67",
+            "card_name": "Unown [E]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-68",
+            "card_name": "Unown [I]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-69",
+            "card_name": "Unown [O]",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have up to 4 Basic Pok\u00e9mon cards in your deck with Unown in their names."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-70",
+            "card_name": "Weedle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-71",
+            "card_name": "Wooper",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-72",
+            "card_name": "Fossil Egg",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pok\u00e9mon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-73",
+            "card_name": "Hyper Devolution Spray",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Choose 1 of your evolved Pok\u00e9mon. Take the highest Stage Evolution card from that Pok\u00e9mon and put it into your hand. (You can't evolve a Pok\u00e9mon the turn you devolve it.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-74",
+            "card_name": "Ruin Wall",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. (You can't play this card if your Bench is full.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "neo2-75",
+            "card_name": "Energy Ark",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

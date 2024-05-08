@@ -1,0 +1,242 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-1",
+            "card_name": "Caterpie",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Grass"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-2",
+            "card_name": "Alolan Exeggutor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 160,
+            "types": [
+                "Grass"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-3",
+            "card_name": "Magmar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80,
+            "types": [
+                "Fire"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-4",
+            "card_name": "Alolan Sandshrew",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Water"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-5",
+            "card_name": "Lapras",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120,
+            "types": [
+                "Water"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-6",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Lightning"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-7",
+            "card_name": "Gastly",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Psychic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-8",
+            "card_name": "Mankey",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Fighting"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-9",
+            "card_name": "Onix",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100,
+            "types": [
+                "Fighting"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-10",
+            "card_name": "Alolan Meowth",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Darkness"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-11",
+            "card_name": "Alolan Dugtrio",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 60,
+            "types": [
+                "Metal"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd19-12",
+            "card_name": "Eevee",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Colorless"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    }
+]

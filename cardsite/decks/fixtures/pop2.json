@@ -1,0 +1,348 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-1",
+            "card_name": "Entei",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-2",
+            "card_name": "Pidgeot",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-3",
+            "card_name": "Raikou",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-4",
+            "card_name": "Suicune",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-5",
+            "card_name": "Tauros",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-6",
+            "card_name": "Venusaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-7",
+            "card_name": "Ivysaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-8",
+            "card_name": "Mr. Briney's Compassion",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Choose 1 of your Pok\u00e9mon in play (excluding Pok\u00e9mon-ex). Return that Pok\u00e9mon and all cards attached to it to your hand."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-9",
+            "card_name": "Multi Technical Machine 01",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Technical Machine"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach this card to 1 of your Pok\u00e9mon in play. That Pok\u00e9mon may use this card's attack instead of its own. At the end of your turn, discard Multi Technical Machine 01."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-10",
+            "card_name": "Pok\u00e9mon Park",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Stadium"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+                "Once during each player's turn, when that player attaches an Energy card from his or her hand to 1 of his or her Benched Pok\u00e9mon, he or she removes 1 damage counter from that Pok\u00e9mon."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-11",
+            "card_name": "TV Reporter",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Draw 3 cards. Then discard any 1 card from your hand."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-12",
+            "card_name": "Bulbasaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-13",
+            "card_name": "Cacnea",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-14",
+            "card_name": "Luvdisc",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-15",
+            "card_name": "Phanpy",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-16",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pop2-17",
+            "card_name": "Celebi ex",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "ex"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "When Pok\u00e9mon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

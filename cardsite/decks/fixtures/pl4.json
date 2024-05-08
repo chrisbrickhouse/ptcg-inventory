@@ -1,0 +1,2265 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-1",
+            "card_name": "Charizard",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-2",
+            "card_name": "Froslass",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-3",
+            "card_name": "Heatran",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-4",
+            "card_name": "Kabutops",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-5",
+            "card_name": "Luxray",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-6",
+            "card_name": "Mothim",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-7",
+            "card_name": "Probopass",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-8",
+            "card_name": "Salamence",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-9",
+            "card_name": "Swalot",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-10",
+            "card_name": "Tangrowth",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-11",
+            "card_name": "Toxicroak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-12",
+            "card_name": "Zapdos G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-13",
+            "card_name": "Aerodactyl",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-14",
+            "card_name": "Bronzong",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-15",
+            "card_name": "Cherrim",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-16",
+            "card_name": "Gengar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-17",
+            "card_name": "Gengar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-18",
+            "card_name": "Glalie",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-19",
+            "card_name": "Golem",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-20",
+            "card_name": "Hariyama",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-21",
+            "card_name": "Lopunny",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-22",
+            "card_name": "Manectric",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-23",
+            "card_name": "Omastar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-24",
+            "card_name": "Pelipper",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-25",
+            "card_name": "Pichu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-26",
+            "card_name": "Porygon-Z G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-27",
+            "card_name": "Raichu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-28",
+            "card_name": "Rapidash",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-29",
+            "card_name": "Raticate",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-30",
+            "card_name": "Sceptile",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-31",
+            "card_name": "Sceptile",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-32",
+            "card_name": "Spiritomb",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-33",
+            "card_name": "Bronzong",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-34",
+            "card_name": "Bronzor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-35",
+            "card_name": "Charmeleon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-36",
+            "card_name": "Gastly",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-37",
+            "card_name": "Graveler",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-38",
+            "card_name": "Grovyle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-39",
+            "card_name": "Grovyle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-40",
+            "card_name": "Gulpin",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-41",
+            "card_name": "Haunter",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-42",
+            "card_name": "Haunter",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-43",
+            "card_name": "Luxio",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-44",
+            "card_name": "Manectric",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-45",
+            "card_name": "Pelipper",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-46",
+            "card_name": "Ponyta",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-47",
+            "card_name": "Rapidash",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-48",
+            "card_name": "Shelgon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-49",
+            "card_name": "Wormadam Plant Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-50",
+            "card_name": "Wormadam Sandy Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-51",
+            "card_name": "Wormadam Trash Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-52",
+            "card_name": "Bagon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-53",
+            "card_name": "Beedrill G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-54",
+            "card_name": "Bronzor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-55",
+            "card_name": "Buneary",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-56",
+            "card_name": "Burmy Plant Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-57",
+            "card_name": "Burmy Sandy Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-58",
+            "card_name": "Burmy Trash Cloak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-59",
+            "card_name": "Charmander",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-60",
+            "card_name": "Cherubi",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-61",
+            "card_name": "Croagunk",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-62",
+            "card_name": "Electrike",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-63",
+            "card_name": "Electrike",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-64",
+            "card_name": "Gastly",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-65",
+            "card_name": "Geodude",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-66",
+            "card_name": "Gulpin",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-67",
+            "card_name": "Kabuto",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-68",
+            "card_name": "Makuhita",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-69",
+            "card_name": "Nosepass",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-70",
+            "card_name": "Omanyte",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-71",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-72",
+            "card_name": "Ponyta",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-73",
+            "card_name": "Rattata",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-74",
+            "card_name": "Shinx",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-75",
+            "card_name": "Snorunt",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-76",
+            "card_name": "Tangela",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-77",
+            "card_name": "Tangela",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-78",
+            "card_name": "Treecko",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-79",
+            "card_name": "Treecko",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-80",
+            "card_name": "Wingull",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-81",
+            "card_name": "Wingull",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-82",
+            "card_name": "Beginning Door",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-83",
+            "card_name": "Bench Shield",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Pok\u00e9mon Tool"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach Bench Shield to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it. If that Pok\u00e9mon is Knocked Out, discard this card.",
+                "As long as the Pok\u00e9mon this card is attached to is on your Bench, prevent all damage done to that Pok\u00e9mon by attacks (both yours and your opponent's)."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-84",
+            "card_name": "Buffer Piece",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Pok\u00e9mon Tool"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach Buffer Piece to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it. If that Pok\u00e9mon is Knocked Out, discard this card.",
+                "Any damage done to the Pok\u00e9mon this card is attached to by an opponent's attack is reduced by 20 (after applying Weakness and Resistance). At the end of your opponent's turn after you played Buffer Piece, discard Buffer Piece."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-85",
+            "card_name": "Department Store Girl",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Search your deck for up to 3 Pok\u00e9mon Tool cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-86",
+            "card_name": "Energy Restore",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip 3 coins. For each heads, put a basic Energy card from your discard pile into your hand. If you don't have that many basic Energy cards in your discard pile, put all of them into your hand."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-87",
+            "card_name": "Expert Belt",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Pok\u00e9mon Tool"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach Expert Belt to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it. If that Pok\u00e9mon is Knocked Out, discard this card.",
+                "The Pok\u00e9mon this card is attached to gets +20 HP and that Pok\u00e9mon's attacks do 20 more damage to your opponent's Active Pok\u00e9mon (before applying Weakness and Resistance). When the Pok\u00e9mon this card is attached to is Knocked Out, your opponent takes 1 more Prize card."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-88",
+            "card_name": "Lucky Egg",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Pok\u00e9mon Tool"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach Lucky Egg to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it. If that Pok\u00e9mon is Knocked Out, discard this card.",
+                "When the Pok\u00e9mon this card is attached to is Knocked Out by damage from an opponent's attack, draw cards until you have 7 cards in your hand."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-89",
+            "card_name": "Old Amber",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 50.0,
+            "types": [],
+            "rules": [
+                "Play Old Amber as if it were a Colorless Basic Pok\u00e9mon. (Old Amber counts as a Trainer card as well, but if Old Amber is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Old Amber can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Old Amber from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-90",
+            "card_name": "Professor Oak's Visit",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Draw 3 cards. Then, choose a card from your hand and put it on the bottom of your deck."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-91",
+            "card_name": "Ultimate Zone",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Stadium"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+                "During each player's turn, the player may move an Energy card attached to 1 of his or her Benched Pok\u00e9mon to his or her Active Arceus as often as he or she likes."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-92",
+            "card_name": "Dome Fossil",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 50.0,
+            "types": [],
+            "rules": [
+                "Play Dome Fossil as if it were a Colorless Basic Pok\u00e9mon. (Dome Fossil counts as a Trainer card as well, but if Dome Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Dome Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Dome Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-93",
+            "card_name": "Helix Fossil",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 50.0,
+            "types": [],
+            "rules": [
+                "Play Helix Fossil as if it were a Colorless Basic Pok\u00e9mon. (Helix Fossil counts as a Trainer card as well, but if Helix Fossil is Knocked Out, this counts as a Knocked Out Pok\u00e9mon.) Helix Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Helix Fossil from play. (This doesn't count as a Knocked Out Pok\u00e9mon.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-94",
+            "card_name": "Arceus LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like.",
+                "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-95",
+            "card_name": "Arceus LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like.",
+                "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-96",
+            "card_name": "Arceus LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like.",
+                "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-97",
+            "card_name": "Gengar LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "Put this card onto your Active Gengar. Gengar LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-98",
+            "card_name": "Salamence LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Put this card onto your Active Salamence. Salamence LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-99",
+            "card_name": "Tangrowth LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [
+                "Put this card onto your Active Tangrowth. Tangrowth LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-SH10",
+            "card_name": "Bagon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-SH11",
+            "card_name": "Ponyta",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-SH12",
+            "card_name": "Shinx",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR1",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR2",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR3",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR4",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR5",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR6",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR7",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR8",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pl4-AR9",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

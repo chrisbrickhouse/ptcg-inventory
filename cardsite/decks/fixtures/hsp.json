@@ -1,0 +1,505 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS01",
+            "card_name": "Ho-Oh",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS02",
+            "card_name": "Lugia",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS03",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS04",
+            "card_name": "Wobbuffet",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS05",
+            "card_name": "Hoothoot",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS06",
+            "card_name": "Noctowl",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS07",
+            "card_name": "Feraligatr",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2",
+                "Prime"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS08",
+            "card_name": "Meganium",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2",
+                "Prime"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS09",
+            "card_name": "Typhlosion",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2",
+                "Prime"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS10",
+            "card_name": "Latias",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS11",
+            "card_name": "Latios",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS12",
+            "card_name": "Cleffa",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS13",
+            "card_name": "Smoochum",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS14",
+            "card_name": "Lapras",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS15",
+            "card_name": "Shuckle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS16",
+            "card_name": "Plusle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS17",
+            "card_name": "Minun",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS18",
+            "card_name": "Tropical Tidal Wave",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip a coin. If heads, discard all Trainer and Stadium cards your opponent has in play. If tails, discard all Trainer and Stadium cards you have in play."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS19",
+            "card_name": "Raikou",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS20",
+            "card_name": "Entei",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS21",
+            "card_name": "Suicune",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS22",
+            "card_name": "Porygon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS23",
+            "card_name": "Porygon2",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS24",
+            "card_name": "Hitmonchan",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "hsp-HGSS25",
+            "card_name": "Hitmonlee",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

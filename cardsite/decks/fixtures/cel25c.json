@@ -1,0 +1,535 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-2_A",
+            "card_name": "Blastoise",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-4_A",
+            "card_name": "Charizard",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-15_A1",
+            "card_name": "Venusaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-15_A2",
+            "card_name": "Here Comes Team Rocket!",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Each player plays with his or her Prize cards face up for the rest of the game."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-15_A3",
+            "card_name": "Rocket's Zapdos",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-15_A4",
+            "card_name": "Claydol",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-73_A",
+            "card_name": "Imposter Professor Oak",
+            "super_type": "Trainer",
+            "subtypes": [],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-8_A",
+            "card_name": "Dark Gyarados",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-24_A",
+            "card_name": "_____'s Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-20_A",
+            "card_name": "Cleffa",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Baby"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "If this Baby Pok\u00e9mon is your Active Pok\u00e9mon and your opponent tries to attack, your opponent flips a coin (before doing anything required in order to use that attack). If tails, your opponent's turn ends without an attack."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-66_A",
+            "card_name": "Shining Magikarp",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [
+                "You can't have more than 1 Shining Magikarp in your deck."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-9_A",
+            "card_name": "Team Magma's Groudon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Fighting",
+                "Darkness"
+            ],
+            "rules": [
+                "This Pok\u00e9mon is both Fighting Darkness type."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-86_A",
+            "card_name": "Rocket's Admin.",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Each player shuffles his or her hand into his or her deck. Then, each player counts his or her Prize cards left and draws up to that many cards. (You draw your cards first.)"
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-88_A",
+            "card_name": "Mew ex",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "ex"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "When Pok\u00e9mon-ex has been knocked out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-93_A",
+            "card_name": "Gardevoir ex \u03b4",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2",
+                "ex"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [
+                "When Pok\u00e9mon-ex has been knocked out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-17_A",
+            "card_name": "Umbreon \u2605",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "Star"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [
+                "You can't have more than 1 Pok\u00e9mon Star in your deck."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-109_A",
+            "card_name": "Luxray GL LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up",
+                "SP"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [
+                "Put this card onto your Active Luxray GL. Luxray GL LV. X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-145_A",
+            "card_name": "Garchomp C LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up",
+                "SP"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Put this card onto your Active Garchomp C. Garchomp C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous Level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-107_A",
+            "card_name": "Donphan",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1",
+                "Prime"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-113_A",
+            "card_name": "Reshiram",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-114_A",
+            "card_name": "Zekrom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-54_A",
+            "card_name": "Mewtwo-EX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "EX"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "Pok\u00e9mon-EX rule: When a Pok\u00e9mon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-97_A",
+            "card_name": "Xerneas-EX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "EX"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Fairy"
+            ],
+            "rules": [
+                "Pok\u00e9mon-EX rule: When a Pok\u00e9mon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-76_A",
+            "card_name": "M Rayquaza-EX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "MEGA",
+                "EX"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Pok\u00e9mon-EX rule: When a Pok\u00e9mon-EX has been Knocked Out, your opponent takes 2 Prize cards.",
+                "Mega Evolution rule: When 1 of your Pok\u00e9mon becomes a Mega Evolution Pok\u00e9mon, your turn ends."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25c-60_A",
+            "card_name": "Tapu Lele-GX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "GX"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "Pok\u00e9mon-GX rule: When your Pok\u00e9mon-GX is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

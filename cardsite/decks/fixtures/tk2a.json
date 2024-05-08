@@ -1,0 +1,239 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-1",
+            "card_name": "Beldum",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-2",
+            "card_name": "Electrike",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-3",
+            "card_name": "Grumpig",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-4",
+            "card_name": "Meowth",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-5",
+            "card_name": "Metang",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-6",
+            "card_name": "Plusle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-7",
+            "card_name": "Spoink",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-8",
+            "card_name": "Energy Search",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-9",
+            "card_name": "Potion",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Remove 2 damage counters from 1 of your Pok\u00e9mon (remove 1 damage counter if that Pok\u00e9mon has only 1)."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-10",
+            "card_name": "Professor Cozmo's Discovery",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pok\u00e9mon. When your turn ends, discard this card.",
+                "Flip a coin. If heads, draw the bottom 3 cards of your deck. If tails, draw the top 2 cards of your deck."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-11",
+            "card_name": "Lightning Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "tk2a-12",
+            "card_name": "Psychic Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

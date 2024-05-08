@@ -1,0 +1,302 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-1",
+            "card_name": "Ledyba",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-2",
+            "card_name": "Rowlet",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-3",
+            "card_name": "Gossifleur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-4",
+            "card_name": "Growlithe",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-5",
+            "card_name": "Victini",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-6",
+            "card_name": "Lapras",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 110,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-7",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-8",
+            "card_name": "Chinchou",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-9",
+            "card_name": "Flaaffy",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-10",
+            "card_name": "Tynamo",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-11",
+            "card_name": "Cutiefly",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-12",
+            "card_name": "Bewear",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 130,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-13",
+            "card_name": "Pangoro",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 140,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-14",
+            "card_name": "Drampa",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120,
+            "types": [
+                "Dragon"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd22-15",
+            "card_name": "Smeargle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "E",
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    }
+]

@@ -1,0 +1,520 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-1",
+            "card_name": "Ho-Oh",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-2",
+            "card_name": "Reshiram",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-3",
+            "card_name": "Kyogre",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-4",
+            "card_name": "Palkia",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-5",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-6",
+            "card_name": "Flying Pikachu V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 190.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-7",
+            "card_name": "Flying Pikachu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX"
+            ],
+            "hp": 310.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-8",
+            "card_name": "Surfing Pikachu V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 200.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-9",
+            "card_name": "Surfing Pikachu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX"
+            ],
+            "hp": 310.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-10",
+            "card_name": "Zekrom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-11",
+            "card_name": "Mew",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-12",
+            "card_name": "Xerneas",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-13",
+            "card_name": "Cosmog",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-14",
+            "card_name": "Cosmoem",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-15",
+            "card_name": "Lunala",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-16",
+            "card_name": "Zacian V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-17",
+            "card_name": "Groudon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-18",
+            "card_name": "Zamazenta V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-19",
+            "card_name": "Yveltal",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-20",
+            "card_name": "Dialga",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-21",
+            "card_name": "Solgaleo",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-22",
+            "card_name": "Lugia",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-23",
+            "card_name": "Professor's Research (Professor Oak)",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "D",
+            "rules": [
+                "Discard your hand and draw 7 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-24",
+            "card_name": "Professor's Research (Professor Oak)",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "D",
+            "rules": [
+                "Discard your hand and draw 7 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "cel25-25",
+            "card_name": "Mew",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    }
+]

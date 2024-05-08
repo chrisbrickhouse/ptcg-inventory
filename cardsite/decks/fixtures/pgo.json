@@ -1,0 +1,1837 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-1",
+            "card_name": "Bulbasaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-2",
+            "card_name": "Ivysaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-3",
+            "card_name": "Venusaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 180.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-4",
+            "card_name": "Radiant Venusaur",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "Radiant"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "Radiant Pok\u00e9mon Rule: You can't have more than 1 Radiant Pok\u00e9mon in your deck."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-5",
+            "card_name": "Alolan Exeggutor V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 240.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-6",
+            "card_name": "Spinarak",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-7",
+            "card_name": "Ariados",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-8",
+            "card_name": "Charmander",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-9",
+            "card_name": "Charmeleon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-10",
+            "card_name": "Charizard",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-11",
+            "card_name": "Radiant Charizard",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "Radiant"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "Radiant Pok\u00e9mon Rule: You can't have more than 1 Radiant Pok\u00e9mon in your deck."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-12",
+            "card_name": "Moltres",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-13",
+            "card_name": "Numel",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-14",
+            "card_name": "Camerupt",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-15",
+            "card_name": "Squirtle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-16",
+            "card_name": "Wartortle",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-17",
+            "card_name": "Blastoise",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-18",
+            "card_name": "Radiant Blastoise",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "Radiant"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "Radiant Pok\u00e9mon Rule: You can't have more than 1 Radiant Pok\u00e9mon in your deck."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-19",
+            "card_name": "Slowpoke",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-20",
+            "card_name": "Slowbro",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-21",
+            "card_name": "Magikarp",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 30.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-22",
+            "card_name": "Gyarados",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-23",
+            "card_name": "Lapras",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-24",
+            "card_name": "Articuno",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-25",
+            "card_name": "Wimpod",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-26",
+            "card_name": "Golisopod",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-27",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-28",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-29",
+            "card_name": "Zapdos",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-30",
+            "card_name": "Mewtwo V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-31",
+            "card_name": "Mewtwo VSTAR",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VSTAR"
+            ],
+            "hp": 280.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VSTAR rule: When your Pok\u00e9mon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-32",
+            "card_name": "Natu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-33",
+            "card_name": "Xatu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-34",
+            "card_name": "Lunatone",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-35",
+            "card_name": "Sylveon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-36",
+            "card_name": "Onix",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-37",
+            "card_name": "Larvitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-38",
+            "card_name": "Pupitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-39",
+            "card_name": "Solrock",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-40",
+            "card_name": "Conkeldurr V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-41",
+            "card_name": "Alolan Rattata",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-42",
+            "card_name": "Alolan Raticate",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-43",
+            "card_name": "Tyranitar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 180.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-44",
+            "card_name": "Steelix",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 180.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-45",
+            "card_name": "Meltan",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-46",
+            "card_name": "Melmetal",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-47",
+            "card_name": "Melmetal V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-48",
+            "card_name": "Melmetal VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-49",
+            "card_name": "Dragonite V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Dragon"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-50",
+            "card_name": "Dragonite VSTAR",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VSTAR"
+            ],
+            "hp": 280.0,
+            "types": [
+                "Dragon"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VSTAR rule: When your Pok\u00e9mon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-51",
+            "card_name": "Chansey",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-52",
+            "card_name": "Blissey",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 200.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-53",
+            "card_name": "Ditto",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-54",
+            "card_name": "Eevee",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-55",
+            "card_name": "Snorlax",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-56",
+            "card_name": "Aipom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-57",
+            "card_name": "Ambipom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-58",
+            "card_name": "Slaking V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-59",
+            "card_name": "Bidoof",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-60",
+            "card_name": "Bibarel",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-61",
+            "card_name": "Pidove",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-62",
+            "card_name": "Tranquill",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-63",
+            "card_name": "Unfezant",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-64",
+            "card_name": "Blanche",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Water Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-65",
+            "card_name": "Candela",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-66",
+            "card_name": "Egg Incubator",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Flip a coin. If heads, search your deck for a Basic Pok\u00e9mon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.",
+                "You may play any number of Item cards during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-67",
+            "card_name": "Lure Module",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Each player reveals the top 3 cards of their deck and puts all Pok\u00e9mon they find there into their hand. Then, each player shuffles the other cards back into their deck.",
+                "You may play any number of Item cards during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-68",
+            "card_name": "Pok\u00e9Stop",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Stadium"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Once during each player's turn, that player may discard 3 cards from the top of their deck. If a player discarded any Item cards in this way, they put those Item cards into their hand."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-69",
+            "card_name": "Rare Candy",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Choose 1 of your Basic Pok\u00e9mon in play. If you have a Stage 2 card in your hand that evolves from that Pok\u00e9mon, put that card onto the Basic Pok\u00e9mon to evolve it, skipping the Stage 1. You can't use this card during your first turn or on a Basic Pok\u00e9mon that was put into play this turn.",
+                "You may play any number of Item cards during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-70",
+            "card_name": "Spark",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Lightning Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-71",
+            "card_name": "Alolan Exeggutor V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 240.0,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-72",
+            "card_name": "Mewtwo V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-73",
+            "card_name": "Conkeldurr V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-74",
+            "card_name": "Conkeldurr V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-75",
+            "card_name": "Melmetal V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-76",
+            "card_name": "Dragonite V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Dragon"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-77",
+            "card_name": "Slaking V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 230.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-78",
+            "card_name": "Professor's Research",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "D",
+            "rules": [
+                "Discard your hand and draw 7 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-79",
+            "card_name": "Mewtwo VSTAR",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VSTAR"
+            ],
+            "hp": 280.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VSTAR rule: When your Pok\u00e9mon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-80",
+            "card_name": "Melmetal VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Metal"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-81",
+            "card_name": "Dragonite VSTAR",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VSTAR"
+            ],
+            "hp": 280.0,
+            "types": [
+                "Dragon"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VSTAR rule: When your Pok\u00e9mon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-82",
+            "card_name": "Blanche",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Water Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-83",
+            "card_name": "Candela",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Fire Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-84",
+            "card_name": "Professor's Research",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "D",
+            "rules": [
+                "Discard your hand and draw 7 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-85",
+            "card_name": "Spark",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Draw 2 cards. If you drew any cards in this way, flip a coin. If heads, attach a Lightning Energy card from your discard pile to 1 of your Benched Pok\u00e9mon.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-86",
+            "card_name": "Mewtwo VSTAR",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VSTAR"
+            ],
+            "hp": 280.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "F",
+            "rules": [
+                "VSTAR rule: When your Pok\u00e9mon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-87",
+            "card_name": "Egg Incubator",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Flip a coin. If heads, search your deck for a Basic Pok\u00e9mon, put it onto your Bench, and shuffle your deck. If tails, put this Egg Incubator on the bottom of your deck instead of in the discard pile.",
+                "You may play any number of Item cards during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "pgo-88",
+            "card_name": "Lure Module",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "F",
+            "rules": [
+                "Each player reveals the top 3 cards of their deck and puts all Pok\u00e9mon they find there into their hand. Then, each player shuffles the other cards back into their deck.",
+                "You may play any number of Item cards during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    }
+]

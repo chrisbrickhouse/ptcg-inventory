@@ -1,0 +1,242 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-1",
+            "card_name": "Treecko",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Grass"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-2",
+            "card_name": "Lotad",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Grass"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-3",
+            "card_name": "Torchic",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Fire"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-4",
+            "card_name": "Staryu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Water"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-5",
+            "card_name": "Mudkip",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Water"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-6",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Lightning"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-7",
+            "card_name": "Electrike",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Lightning"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-8",
+            "card_name": "Rhyhorn",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80,
+            "types": [
+                "Fighting"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-9",
+            "card_name": "Meditite",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Fighting"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-10",
+            "card_name": "Marill",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70,
+            "types": [
+                "Fairy"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-11",
+            "card_name": "Zigzagoon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Colorless"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "mcd15-12",
+            "card_name": "Skitty",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50,
+            "types": [
+                "Colorless"
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": [],
+            "regulation_mark": ""
+        }
+    }
+]

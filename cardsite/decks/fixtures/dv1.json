@@ -1,0 +1,426 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-1",
+            "card_name": "Dratini",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-2",
+            "card_name": "Dratini",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-3",
+            "card_name": "Dragonair",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-4",
+            "card_name": "Dragonair",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-5",
+            "card_name": "Dragonite",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-6",
+            "card_name": "Bagon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-7",
+            "card_name": "Shelgon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-8",
+            "card_name": "Salamence",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-9",
+            "card_name": "Latias",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-10",
+            "card_name": "Latios",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-11",
+            "card_name": "Rayquaza",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-12",
+            "card_name": "Axew",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-13",
+            "card_name": "Axew",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-14",
+            "card_name": "Fraxure",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-15",
+            "card_name": "Fraxure",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-16",
+            "card_name": "Haxorus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-17",
+            "card_name": "Druddigon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-18",
+            "card_name": "Exp. Share",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Pok\u00e9mon Tool"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Attach a Pok\u00e9mon Tool to 1 of your Pok\u00e9mon that doesn't already have a Pok\u00e9mon Tool attached to it.",
+                "When your Active Pok\u00e9mon is Knocked Out by damage from an opponent's attack, you may move 1 basic Energy card that was attached to that Pok\u00e9mon to the Pok\u00e9mon this card is attached to.",
+                "You may play as many Item cards as you like during your turn (before your attack)."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-19",
+            "card_name": "First Ticket",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Before you flip a coin to decide who goes first in a game, you may play this card. Don't flip that coin, and you go first. If both players play First Ticket, flip the coin as normal. (You may play only 1 First Ticket before you flip that coin.)",
+                "You may play as many Item cards as you like during your turn (before your attack)."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-20",
+            "card_name": "Super Rod",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Shuffle 3 in any combination of Pok\u00e9mon and basic Energy cards from your discard pile back into your deck.",
+                "You may play as many Item cards as you like during your turn (before your attack)."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dv1-21",
+            "card_name": "Kyurem",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Dragon"
+            ],
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

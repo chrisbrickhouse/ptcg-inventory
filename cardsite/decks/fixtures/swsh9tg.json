@@ -1,0 +1,655 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG01",
+            "card_name": "Flareon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG02",
+            "card_name": "Vaporeon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG03",
+            "card_name": "Octillery",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1",
+                "Rapid Strike"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG04",
+            "card_name": "Jolteon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG05",
+            "card_name": "Zekrom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG06",
+            "card_name": "Dusknoir",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG07",
+            "card_name": "Dedenne",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG08",
+            "card_name": "Alcremie",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG09",
+            "card_name": "Ariados",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG10",
+            "card_name": "Houndoom",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1",
+                "Single Strike"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG11",
+            "card_name": "Eevee",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "E",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG12",
+            "card_name": "Oranguru",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "D",
+            "rules": [],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG13",
+            "card_name": "Boltund V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 200.0,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "D",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG14",
+            "card_name": "Sylveon V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V",
+                "Rapid Strike"
+            ],
+            "hp": 200.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG15",
+            "card_name": "Sylveon VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Rapid Strike"
+            ],
+            "hp": 310.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG16",
+            "card_name": "Mimikyu V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG17",
+            "card_name": "Mimikyu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX"
+            ],
+            "hp": 300.0,
+            "types": [
+                "Psychic"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG18",
+            "card_name": "Single Strike Urshifu V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V",
+                "Single Strike"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG19",
+            "card_name": "Single Strike Urshifu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Single Strike"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG20",
+            "card_name": "Rapid Strike Urshifu V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V",
+                "Rapid Strike"
+            ],
+            "hp": 220.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG21",
+            "card_name": "Rapid Strike Urshifu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Rapid Strike"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG22",
+            "card_name": "Umbreon V",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "V",
+                "Single Strike"
+            ],
+            "hp": 200.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "V rule: When your Pok\u00e9mon V is Knocked Out, your opponent takes 2 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG23",
+            "card_name": "Umbreon VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Single Strike"
+            ],
+            "hp": 310.0,
+            "types": [
+                "Darkness"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG24",
+            "card_name": "Acerola's Premonition",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "E",
+            "rules": [
+                "Your opponent reveals their hand, and you draw a card for each Trainer card you find there.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG25",
+            "card_name": "Caf\u00e9 Master",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "E",
+            "rules": [
+                "Choose up to 3 of your Benched Pok\u00e9mon. For each of those Pok\u00e9mon, search your deck for a different type of basic Energy card and attach it to that Pok\u00e9mon. Then, shuffle your deck. Your turn ends.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG26",
+            "card_name": "Gloria",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "E",
+            "rules": [
+                "Search your deck for up to 3 Basic Pok\u00e9mon that don't have a Rule Box and put them onto your Bench. Then, shuffle your deck. (Pok\u00e9mon V, Pok\u00e9mon-GX, etc. have Rule Boxes.)",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG27",
+            "card_name": "Rapid Strike Style Mustard",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Rapid Strike",
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "E",
+            "rules": [
+                "You can play this card only when it is the last card in your hand.",
+                "Put a Rapid Strike Pok\u00e9mon from your discard pile onto your Bench. If you do, draw 5 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG28",
+            "card_name": "Single Strike Style Mustard",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Single Strike",
+                "Supporter"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "regulation_mark": "E",
+            "rules": [
+                "You can play this card only when it is the last card in your hand.",
+                "Search your deck for a Single Strike Pok\u00e9mon and put it onto your Bench. Then, shuffle your deck. If you searched your deck in this way, draw 5 cards.",
+                "You may play only 1 Supporter card during your turn."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG29",
+            "card_name": "Single Strike Urshifu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Single Strike"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "swsh9tg-TG30",
+            "card_name": "Rapid Strike Urshifu VMAX",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "VMAX",
+                "Rapid Strike"
+            ],
+            "hp": 330.0,
+            "types": [
+                "Fighting"
+            ],
+            "regulation_mark": "E",
+            "rules": [
+                "VMAX rule: When your Pok\u00e9mon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true
+        }
+    }
+]

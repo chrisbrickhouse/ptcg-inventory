@@ -1,0 +1,1173 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP01",
+            "card_name": "Turtwig",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP02",
+            "card_name": "Chimchar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP03",
+            "card_name": "Piplup",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP04",
+            "card_name": "Pachirisu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP05",
+            "card_name": "Tropical Wind",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP06",
+            "card_name": "Buneary",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP07",
+            "card_name": "Cranidos",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 70.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP08",
+            "card_name": "Shieldon",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP09",
+            "card_name": "Torterra LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 160.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [
+                "Put this card onto your Active Torterra. Torterra LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP10",
+            "card_name": "Infernape LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [
+                "Put this card onto your Active Infernape. Infernape LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP11",
+            "card_name": "Empoleon LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 140.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [
+                "Put this card onto your Active Empoleon. Empoleon LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP12",
+            "card_name": "Lucario LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [
+                "Put this card onto your Active Lucario. Lucario LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP13",
+            "card_name": "Buizel",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP14",
+            "card_name": "Chatot",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP15",
+            "card_name": "Shinx",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP16",
+            "card_name": "Pikachu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP17",
+            "card_name": "Dialga LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [
+                "Put this card onto your Active Dialga. Dialga LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP18",
+            "card_name": "Palkia LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [
+                "Put this card onto your Active Palkia. Palkia LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP19",
+            "card_name": "Darkrai LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [
+                "Put this card onto your Active Darkrai. Darkrai LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP20",
+            "card_name": "Magmortar",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP21",
+            "card_name": "Raichu",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP22",
+            "card_name": "Mime Jr.",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 40.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP23",
+            "card_name": "Glameow",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 50.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP24",
+            "card_name": "Darkrai",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [
+                "Enigma Berry: If Darkrai is damaged by an attack from your opponent's Fighting Pok\u00e9mon, remove 4 damage counters at the end of that turn."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP25",
+            "card_name": "Tropical Wind",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP26",
+            "card_name": "Dialga",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP27",
+            "card_name": "Palkia",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Water"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP28",
+            "card_name": "Mewtwo LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "Put this card onto your Active Mewtwo. Mewtwo LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP29",
+            "card_name": "Rhyperior LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 170.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [
+                "Put this card onto your Active Rhyperior. Rhyperior LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP30",
+            "card_name": "Regigigas LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 150.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Put this card onto your Active Regigigas. Regigigas LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP31",
+            "card_name": "Heatran LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [
+                "Put this card onto your Active Heatran. Heatran LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP32",
+            "card_name": "Magnezone",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP33",
+            "card_name": "Dusknoir",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP34",
+            "card_name": "Drifblim",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP35",
+            "card_name": "Porygon-Z",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP36",
+            "card_name": "Gliscor",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 1"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP37",
+            "card_name": "Dialga LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [
+                "Put this card onto your Active Dialga. Dialga LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP38",
+            "card_name": "Giratina LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [
+                "Put this card onto your Active Giratina. Giratina LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP39",
+            "card_name": "Shaymin LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [
+                "Put this card onto your Active Shaymin. Shaymin LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP40",
+            "card_name": "Regigigas",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP41",
+            "card_name": "Toxicroak G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP42",
+            "card_name": "Carnivine G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 80.0,
+            "types": [
+                "Grass"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP43",
+            "card_name": "Probopass G",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic",
+                "SP"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Fighting"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP44",
+            "card_name": "Magnezone",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Stage 2"
+            ],
+            "hp": 130.0,
+            "types": [
+                "Lightning"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP45",
+            "card_name": "Charizard G LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up",
+                "SP"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Fire"
+            ],
+            "rules": [
+                "Put this card onto your Active Charizard G. Charizard G LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP46",
+            "card_name": "Garchomp C LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up",
+                "SP"
+            ],
+            "hp": 110.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Put this card onto your Active Garchomp C. Garchomp C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP47",
+            "card_name": "Rayquaza C LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up",
+                "SP"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "Put this card onto your Active Rayquaza C. Rayquaza C LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP48",
+            "card_name": "Tropical Wind",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Flip a coin. If heads, remove 2 damage counters from each Active Pok\u00e9mon (remove 1 damage counter if a Pok\u00e9mon has only 1). If tails, each Active Pok\u00e9mon is now Asleep."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP49",
+            "card_name": "Dialga",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 100.0,
+            "types": [
+                "Metal"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP50",
+            "card_name": "Arceus",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP51",
+            "card_name": "Cresselia",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Psychic"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP52",
+            "card_name": "Darkrai",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 90.0,
+            "types": [
+                "Darkness"
+            ],
+            "rules": [],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP53",
+            "card_name": "Arceus LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like.",
+                "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP54",
+            "card_name": "Beginning Door",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Item"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP55",
+            "card_name": "Ultimate Zone",
+            "super_type": "Trainer",
+            "subtypes": [
+                "Stadium"
+            ],
+            "hp": 0.0,
+            "types": [],
+            "rules": [
+                "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+                "During each player's turn, the player may move an Energy card attached to 1 of his or her Benched Pok\u00e9mon to his or her Active Arceus as often as he or she likes."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "dpp-DP56",
+            "card_name": "Arceus LV.X",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Level-Up"
+            ],
+            "hp": 120.0,
+            "types": [
+                "Colorless"
+            ],
+            "rules": [
+                "You may have as many of this card in your deck as you like.",
+                "Put this card onto your Active Arceus. Arceus LV.X can use any attack, Pok\u00e9-Power, or Pok\u00e9-Body from its previous level."
+            ],
+            "expanded_legal": false,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "regulation_mark": ""
+        }
+    }
+]

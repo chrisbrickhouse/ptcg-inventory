@@ -1,0 +1,146 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-1",
+            "card_name": "Basic Grass Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-2",
+            "card_name": "Basic Fire Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-3",
+            "card_name": "Basic Water Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-4",
+            "card_name": "Basic Lightning Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-5",
+            "card_name": "Basic Psychic Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-6",
+            "card_name": "Basic Fighting Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-7",
+            "card_name": "Basic Darkness Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "sve-8",
+            "card_name": "Basic Metal Energy",
+            "super_type": "Energy",
+            "subtypes": [
+                "Basic"
+            ],
+            "expanded_legal": true,
+            "standard_legal": true,
+            "unlimited_legal": true,
+            "hp": 0,
+            "types": [],
+            "rules": [],
+            "regulation_mark": ""
+        }
+    }
+]

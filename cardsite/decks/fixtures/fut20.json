@@ -1,0 +1,102 @@
+[
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "fut20-1",
+            "card_name": "Pikachu on the Ball",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Lightning"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "fut20-2",
+            "card_name": "Eevee on the Ball",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Colorless"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "fut20-3",
+            "card_name": "Grookey on the Ball",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Grass"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "fut20-4",
+            "card_name": "Scorbunny on the Ball",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Fire"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    },
+    {
+        "model": "decks.Card",
+        "fields": {
+            "card_id": "fut20-5",
+            "card_name": "Sobble on the Ball",
+            "super_type": "Pok\u00e9mon",
+            "subtypes": [
+                "Basic"
+            ],
+            "hp": 60,
+            "types": [
+                "Water"
+            ],
+            "regulation_mark": "D",
+            "expanded_legal": true,
+            "standard_legal": false,
+            "unlimited_legal": true,
+            "rules": []
+        }
+    }
+]
