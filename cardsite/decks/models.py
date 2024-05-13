@@ -1,3 +1,6 @@
+from datetime import datetime
+import uuid
+
 import django.contrib.postgres.fields as postgres_fields
 from django.db import models
 
@@ -34,11 +37,20 @@ class Card( models.Model ):
 
 class Deck( models.Model ):
     # UUID for deck
-    deck_id = models.PositiveIntegerField( primary_key = True )
+    deck_uuid = models.UUIDField(
+            default = uuid.uuid4,
+            unique = True,
+            editable = False,
+            primary_key = True,
+        )
     # Human readable name of the deck
     deck_name = models.CharField( max_length = 80 )
     # Date and time deck created
-    created = models.DateTimeField( "date created" )
+    created = models.DateTimeField( 
+            "date created",
+            default = datetime.now,
+            editable = False
+        )
     # What format the deck is legal in
     game_format = models.CharField(
             max_length = 10,
@@ -46,5 +58,5 @@ class Deck( models.Model ):
         )
     card_list = models.ManyToManyField(
             'decks.Card',
-            related_name = 'deck_id'
+            related_name = 'deck_uuid'
         )
