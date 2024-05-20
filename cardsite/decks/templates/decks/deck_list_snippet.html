@@ -1,0 +1,18 @@
+<table>
+	<thead>
+		<tr>
+			<th scope="col">Qty</th>
+			<th scope="col">Card name</th>
+			<th scope="col">ID</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for calloc in deck_list %}
+		<tr>
+			<td>{{ calloc.n_card_in_deck }}</td>
+			<td>{{ calloc.card_name }}</td>
+			<td>{{ calloc.card_id }}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>

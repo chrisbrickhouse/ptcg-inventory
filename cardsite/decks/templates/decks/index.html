@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Decks{% endblock %} 
+
+{% block content %}
+	{% if list_of_decks %}
+		<ul>
+		{% for deck in list_of_decks %}
+			<li><a href="/decks/{{ deck.deck_uuid }}">{{ deck.deck_name }}</a></li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>No decks have been created yet.</p>
+	{% endif %}
+	<a class="btn btn-primary" href="/decks/new" role="button">Make new deck</a>
+{% endblock %}

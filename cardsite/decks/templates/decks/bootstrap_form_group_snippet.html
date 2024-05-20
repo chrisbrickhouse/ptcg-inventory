@@ -1,0 +1,7 @@
+{% for field in form %}
+<div class="form-group">
+	{{field.errors}}
+	{{field.label_tag}} {{field}}
+	<small id="{{field.id_for_label}}_helptext" class="form-text text-muted">{{field.help_text}}</small>
+</div>
+{% endfor %}

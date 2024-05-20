@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ Deck.deck_name }}{% endblock %} 
+
+{% block content %}
+<p>Deck created: {{ Deck.created }}</p>
+<p>Deck format: {{ Deck.get_game_format }}</p>
+<p>Number of cards: {{ Deck.n_cards }}</p>
+<p>Legal? {{ Deck.is_legal }}</p>
+<a href="edit">Edit</a>
+{% endblock %}

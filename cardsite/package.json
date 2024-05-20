@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "name": "ptcg-inventory-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/chrisbrickhouse/ptcg-inventory#readme",
+  "bugs": {
+	  "url": "https://github.com/chrisbrickhouse/ptcg-inventory/issues",
+	  "email": "christianbrickhouse@gmail.com"
+  },
+  "keywords": [],
+  "author": {
+	  "name": "Christian Brickhouse",
+	  "email": "christianbrickhouse@gmail.com",
+	  "url": "christianbrickhouse.com"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/chrisbrickhouse/ptcg-inventory.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "description": ""
+}
