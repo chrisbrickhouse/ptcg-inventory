@@ -1,5 +1,5 @@
 """
-URL configuration for my_pokemon_cards project.
+URL configuration for cardsite project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -19,5 +19,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('decks/', include("decks.urls")),
+    path('inventory/', include("inventory.urls")),
     path('admin/', admin.site.urls),
 ]
