@@ -69,25 +69,4 @@ def edit_deck( request, deck_uuid ):
     return HttpResponse( template.render( context, request ) )
 
 def update_calloc( request, deck_uuid ):
-    print(request)
-    try:
-        card_id = request.POST['card_id']
-        quantity = request.POST['quantity']
-    except KeyError:
-        return HttpResponse( "JavaScript didn't send expected POST data?" ) 
-    if int(quantity) < 1:
-        try:
-            CardAllocation.objects.get(
-                    stash_id=deck_uuid,
-                    card_id=card_id
-                ).delete()
-            return HttpResponse( "Removed from deck" )
-        except ObjectDoesNotExist:
-            return HttpResponse( "Moot" )
-    # JS should avoid POST if nothing changed to avoid pointless SQL
-    obj, created = CardAllocation.objects.update_or_create(
-            stash_id = deck_uuid,
-            card_id = card_id,
-            defaults = { "n_card_in_stash": quantity },
-        )
-    return HttpResponse( "Entry updated!" )
+    return cardstash.views.update_calloc( request, deck_uuid )

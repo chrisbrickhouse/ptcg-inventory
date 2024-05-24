@@ -1,7 +1,7 @@
 from django.forms import modelform_factory
 from django.shortcuts import render, HttpResponse
 
-from .models import CardStash
+from .models import CardAllocation, CardStash
 
 def index( 
           request, 
@@ -38,7 +38,33 @@ def new_stash(
             context
         )
 
+def __get_headers( request, headers ):
+    return { k:v for k,v in request.POST.items() if k in headers }
+
 def create_stash_entry( request, StashModel, headers ):
-    kwargs = { k: v for k,v in request.POST.items() if k in headers }
+    kwargs = __get_headers( request, headers )
     new_entry = StashModel.objects.create( **kwargs )
     return HttpResponse( "Deck created" )
+
+def update_calloc( request, stash_uuid ):
+    try:
+        card_id = request.POST['card_id']
+        quantity = request.POST['quantity']
+    except KeyError:
+        return HttpResponse( "JavaScript didn't send expected POST data?" ) 
+    if int(quantity) < 1:
+        try:
+            CardAllocation.objects.get(
+                    stash_id=stash_uuid,
+                    card_id=card_id
+                ).delete()
+            return HttpResponse( "Removed from deck" )
+        except ObjectDoesNotExist:
+            return HttpResponse( "Moot" )
+    # JS should avoid POST if nothing changed to avoid pointless SQL
+    obj, created = CardAllocation.objects.update_or_create(
+            stash_id = stash_uuid,
+            card_id = card_id,
+            defaults = { "n_card_in_stash": quantity },
+        )
+    return HttpResponse( "Entry updated!" )
