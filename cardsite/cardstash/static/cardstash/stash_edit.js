@@ -1,13 +1,7 @@
-{% extends "base.html" %}
-
-{% block import %}
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script>
 $(document).ready(function() {
 	function fetchCardCount( card_id ) {
 		var ajaxQuery = {
-			url: "{{ api_url }}?action=countDeckCard&card_id="+card_id+"&deck_uuid="+"{{ Deck.uuid }}",
+			url: api_url+"?action=countDeckCard&card_id="+card_id+"&deck_uuid="+stash_uuid,
 			type: 'get',
 			success: function( response ) {
 				$('#card-count-display').val( response );
@@ -43,10 +37,10 @@ $(document).ready(function() {
 		post_data = {
 			card_id: card_id,
 			quantity: quantity,
-			csrfmiddlewaretoken: "{{ csrf_token }}"
+			csrfmiddlewaretoken: csrf_token
 		};
 		$.ajax({
-			url: '{{ post_url }}',
+			url: post_url,
 			type: 'POST',
 			data: post_data,
 			success: function(resultData) { console.log(resultData) },
@@ -69,20 +63,3 @@ $(document).ready(function() {
 
 	resetCardCount();
 });
-</script>
-{% endblock %}
-
-{% block title %} Editing {{ Deck.deck_name }}{% endblock %}
-
-{% block content %}
-<select class="form-select filter-select" aria-label="Card selection">
-	{% for Card in card_list %}
-	<option value="{{ Card.card_id }}">{{ Card.card_name }} - {{ Card.card_id }}</option>
-	{% endfor %}
-</select>
-<button id="card-count-increase" class="btn btn-outline-success" type="button">+</button>
-<button id="card-count-decrease" class="btn btn-outline-danger" type="button">-</button>
-<input id="card-count-display" type="number" value="0" readonly />
-
-{% include 'decks/deck_list_snippet.html' %}
-{% endblock %}

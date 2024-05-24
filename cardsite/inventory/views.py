@@ -41,7 +41,7 @@ def storage_locale_details( request, storage_uuid ):
     inventory_list = CardAllocation.objects.filter( stash_id = storage_uuid )
     context = {
             'StorageLocale': storage_locale_instance,
-            'deck_list': inventory_list
+            'stash_list': inventory_list
         }
     return render(
             request,
@@ -54,15 +54,15 @@ def edit_stored_cards( request, storage_uuid ):
     card_list = Card.objects.all()
     stored_card_list = CardAllocation.objects.filter( stash_id = storage_uuid )
     context = {
-            'Deck': storage_instance,
+            'Stash': storage_instance,
             'card_list': card_list,
-            'deck_list': stored_card_list,
+            'stash_list': stored_card_list,
             'post_url': 'update_calloc',
             'api_url': 'http://localhost:8000/decks/api',
         }
     return render(
             request,
-            'decks/edit_deck.html',
+            'cardstash/edit_stash.html',
             context
         )
 

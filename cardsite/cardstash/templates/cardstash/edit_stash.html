@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block import %}
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+	var api_url = "{{ api_url }}";
+	var post_url = "{{ post_url }}";
+	var stash_uuid = "{{ Stash.uuid }}";
+	var csrf_token = "{{ csrf_token }}";
+</script>
+{% load static %}
+<script src="{% static 'cardstash/stash_edit.js' %}"></script>
+{% endblock %}
+
+{% block title %} Editing {{ Stash.name }}{% endblock %}
+
+{% block content %}
+<select class="form-select filter-select" aria-label="Card selection">
+	{% for Card in card_list %}
+	<option value="{{ Card.card_id }}">{{ Card.card_name }} - {{ Card.card_id }}</option>
+	{% endfor %}
+</select>
+<button id="card-count-increase" class="btn btn-outline-success" type="button">+</button>
+<button id="card-count-decrease" class="btn btn-outline-danger" type="button">-</button>
+<input id="card-count-display" type="number" value="0" readonly />
+
+{% include 'cardstash/card_list_snippet.html' %}
+{% endblock %}

@@ -57,15 +57,16 @@ def edit_deck( request, deck_uuid ):
     deck_instance = Deck.objects.get( uuid = deck_uuid )
     deck_format = deck_instance.game_format
     legal_cards = Card.objects.filter( **format_query( deck_format ) )
-    deck_list = CardAllocation.objects.filter( stash_id = deck_instance.uuid )
-    template = loader.get_template( "decks/edit_deck.html" )
+    deck_list = CardAllocation.objects.filter( stash_id = deck_uuid )
+    template = loader.get_template( "cardstash/edit_stash.html" )
     context = {
-            'Deck': deck_instance,
+            'Stash': deck_instance,
             'card_list': legal_cards,
-            'deck_list': deck_list,
+            'stash_list': deck_list,
             'post_url': 'update_calloc',
             'api_url': 'http://localhost:8000/decks/api',
         }
+    print(context)
     return HttpResponse( template.render( context, request ) )
 
 def update_calloc( request, deck_uuid ):
