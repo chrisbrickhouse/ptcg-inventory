@@ -47,9 +47,9 @@ def __count( request ):
     try:
         return HttpResponse(
                 CardAllocation.objects.get(
-                    deck_id=request.GET['deck_uuid'],
+                    stash_id=request.GET['deck_uuid'],
                     card_id=request.GET['card_id']
-                ).n_card_in_deck
+                ).n_card_in_stash
             )
     except ObjectDoesNotExist:
         return HttpResponse( 0 )

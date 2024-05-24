@@ -1,40 +1,41 @@
 from django.core.exceptions import ObjectDoesNotExist
-from django.forms import ModelForm
+from django.forms import modelform_factory
 from django.shortcuts import HttpResponse
 from django.template import loader
 from django.utils.translation import gettext_lazy as text
 
-from .models import Card, CardAllocation, Deck
+from .models import Card, Deck
+from cardstash.models import CardAllocation
+import cardstash.views
 
 def index( request ):
-    list_of_decks = Deck.objects.order_by( "created" )
-    template = loader.get_template( "decks/index.html" )
-    context = {
-            "list_of_decks": list_of_decks
-        }
-    return HttpResponse( template.render( context, request ) )
+    return cardstash.views.index(
+            request,
+            Deck,
+            "list_of_decks",
+            "decks/index.html"
+        )
 
 def new_deck( request, error = None ):
-    template = loader.get_template( "decks/new_deck_form.html" )
-    context = {
-            "form": NewDeckForm().render( "decks/bootstrap_form_group_snippet.html" ),
-        }
-    return HttpResponse( template.render( context, request ) )
+    fields = [ "name", "game_format" ]
+    labels = { "name": "Deck name" }
+    return cardstash.views.new_stash(
+            request,
+            Deck,
+            fields,
+            labels,
+        )
 
 def create_deck_entry( request ):
-    try:
-        deck_name = request.POST['deck_name']
-        game_format = request.POST['game_format']
-    except KeyError:
-        return new_deck( request )
-    new_deck_entry = Deck.objects.create(
-            deck_name = deck_name,
-            game_format = game_format,
+    headers = [ 'name', 'game_format' ]
+    return cardstash.views.create_stash_entry( 
+            request,
+            Deck,
+            headers,
         )
-    return HttpResponse( "Deck created" )
 
 def deck_details( request, deck_uuid ):
-    deck_instance = Deck.objects.get( deck_uuid = deck_uuid )
+    deck_instance = Deck.objects.get( uuid = deck_uuid )
     template = loader.get_template( "decks/deck_details.html" )
     context = {
             'Deck': deck_instance
@@ -53,10 +54,10 @@ def edit_deck( request, deck_uuid ):
                 return { 'expanded_legal': True }
             case _:
                 return { 'unlimited_legal': True }
-    deck_instance = Deck.objects.get( deck_uuid = deck_uuid )
+    deck_instance = Deck.objects.get( uuid = deck_uuid )
     deck_format = deck_instance.game_format
     legal_cards = Card.objects.filter( **format_query( deck_format ) )
-    deck_list = CardAllocation.objects.filter( deck_id = deck_instance.deck_uuid )
+    deck_list = CardAllocation.objects.filter( stash_id = deck_instance.uuid )
     template = loader.get_template( "decks/edit_deck.html" )
     context = {
             'Deck': deck_instance,
@@ -77,7 +78,7 @@ def update_calloc( request, deck_uuid ):
     if int(quantity) < 1:
         try:
             CardAllocation.objects.get(
-                    deck_id=deck_uuid,
+                    stash_id=deck_uuid,
                     card_id=card_id
                 ).delete()
             return HttpResponse( "Removed from deck" )
@@ -85,23 +86,8 @@ def update_calloc( request, deck_uuid ):
             return HttpResponse( "Moot" )
     # JS should avoid POST if nothing changed to avoid pointless SQL
     obj, created = CardAllocation.objects.update_or_create(
-            deck_id = deck_uuid,
+            stash_id = deck_uuid,
             card_id = card_id,
-            defaults = { "n_card_in_deck": quantity },
+            defaults = { "n_card_in_stash": quantity },
         )
     return HttpResponse( "Entry updated!" )
-
-class NewDeckForm(ModelForm):
-    class Meta:
-        model = Deck
-        fields = [ "deck_name", "game_format" ]
-        #exclude = ["deck_id", "created", "card_list"]
-        labels = {
-                "deck_name": "Deck name",
-                "game_format": "Game format",
-            }
-        error_messages = {
-                "deck_name": {
-                    "max_length": "This deck name is too long."
-                }
-            }

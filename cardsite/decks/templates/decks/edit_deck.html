@@ -7,7 +7,7 @@
 $(document).ready(function() {
 	function fetchCardCount( card_id ) {
 		var ajaxQuery = {
-			url: "{{ api_url }}?action=countDeckCard&card_id="+card_id+"&deck_uuid="+"{{ Deck.deck_uuid }}",
+			url: "{{ api_url }}?action=countDeckCard&card_id="+card_id+"&deck_uuid="+"{{ Deck.uuid }}",
 			type: 'get',
 			success: function( response ) {
 				$('#card-count-display').val( response );
