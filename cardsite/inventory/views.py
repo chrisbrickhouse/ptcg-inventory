@@ -58,7 +58,7 @@ def edit_stored_cards( request, storage_uuid ):
             'card_list': card_list,
             'stash_list': stored_card_list,
             'post_url': 'update_calloc',
-            'api_url': 'http://localhost:8000/decks/api',
+            'api_url': 'http://localhost:8000/api',
         }
     return render(
             request,
@@ -68,4 +68,3 @@ def edit_stored_cards( request, storage_uuid ):
 
 def update_calloc( request, storage_uuid ):
     return cardstash.views.update_calloc( request, storage_uuid )
-
