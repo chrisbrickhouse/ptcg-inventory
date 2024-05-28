@@ -1,5 +1,9 @@
+import json
+
 from django.apps import AppConfig
 from django.core.exceptions import ObjectDoesNotExist
+from django.db import transaction
+from django.http import JsonResponse
 from django.shortcuts import HttpResponse
 from django.template import loader
 from django.utils.translation import gettext_lazy as text
@@ -35,6 +39,10 @@ def index( request ):
         return __update( request )
     if action == 'move':
         return __move( request )
+    if action == 'getCardList':
+        return __getCardList( request )
+    if action == 'getBulkMoveTable':
+        return __getBulkMoveTable( request )
     # Refuse to brew coffee with teapot
     return HttpResponse(
             status_code = 418
@@ -71,6 +79,64 @@ def get_n_card_in( request, stash_uuid ):
     except ObjectDoesNotExist:
         return HttpResponse( 0 )
 
+def __getCardList( request ):
+    try:
+        stash_uuid = request.GET['stash_uuid']
+    except KeyError:
+        return api_error('No stash_uuid supplied')
+    return get_card_list( request, stash_uuid )
+
+def get_card_list( request, stash_uuid ):
+    calloc_list = CardAllocation.objects.filter(
+            stash_id = stash_uuid,
+        )
+    response_data = []
+    for entry in calloc_list:
+        card = Card.objects.get( card_id = entry.card_id )
+        data_row = {
+                'card_name': card.card_name,
+                'card_id': card.card_id,
+                'quantity': entry.n_card_in_stash,
+            }
+        response_data.append(data_row)
+    return JsonResponse( {'data':response_data} )
+
+def __getBulkMoveTable( request ):
+    try:
+        from_uuid = request.GET['from_uuid']
+        to_uuid = request.GET['to_uuid']
+    except KeyError:
+        return api_error('No stash_uuid supplied')
+    return get_bulk_move_table( request, from_uuid, to_uuid )
+
+def get_bulk_move_table( request, from_stash_uuid, to_stash_uuid ):
+    def get_data_from_json( request, from_stash_uuid ):
+        json_response = get_card_list( request, from_stash_uuid )
+        return json.loads( json_response.content )['data']
+
+    from_stash_data = get_data_from_json( request, from_stash_uuid )
+    to_stash_data = get_data_from_json( request, to_stash_uuid )
+
+    merged_data = {}
+    for card in from_stash_data:
+        entry = {
+                'from_quantity': card['quantity'],
+                'to_quantity': 0,
+                'card_name': card['card_name'],
+            }
+        merged_data[card['card_id']] = entry
+    for card in to_stash_data:
+        if card['card_id'] in merged_data:
+            merged_data[card['card_id']]['to_quantity'] = card['quantity']
+            continue
+        entry = {
+                'from_quantity': 0,
+                'to_quantity': card['quantity'],
+                'card_name': card['card_name'],
+            }
+        merged_data[card['card_id']] = entry
+    return JsonResponse(merged_data)
+
 def update_stash( request, stash_uuid ):
     try:
         stash_type = request.POST['stash_type']
@@ -85,37 +151,37 @@ def update_stash( request, stash_uuid ):
     except KeyError:
         return api_error('No update_data provided')
     stash_instance.update( **update_data )
-    return HttpResponse( status_code = 200 )
+    return HttpResponse( status=204 )
 
-def move_cards_from_to( request, from_stash_uuid, to_stash_uuid ):
-    try:
-        from_stash_instance = CardStash.objects.get( uuid = from_stash_uuid )
-        to_stash_instance = CardStash.objects.get( uuid = to_stash_uuid )
-    except ObjectDoesNotExist:
-        return api_error('At least one of the stashes does not exist. Check the UUID.')
-    try:
-        # card_data is a dict where keys are card_id and values are quantity to move
-        card_data = request.POST['card_data']
-    except KeyError:
-        return api_error('No card_data provided')
-    card_id_list = card_data.keys()
-    calloc_from_set = CardAllocation.objects.filter( 
-            stash_id = from_stash_uuid 
-        ).filter( 
-                card_id__in=card_id_list
-            )
-    for calloc in calloc_from_set:
-        calloc.update( 
-                n_card_in_stash = F("n_card_in_stash") - card_data[calloc.card_id]
-            )
-    calloc_to_set = CardAllocation.objects.filter(
-            stash_id = to_stash_uuid
-        ).filter(
-                card_id__in=card_id_list
-            )
-    for calloc in calloc_to_set:
-        calloc.update(
-                n_card_in_stash = F("n_card_in_stash") + card_data[calloc.card_id]
-            )
-    return HttpResponse( status_code = 200 )
+@transaction.atomic
+def __update_calloc( quantity, stash_uuid, card_id ):
+    if int(quantity) < 1:
+        try:
+            CardAllocation.objects.get(
+                    stash_id=stash_uuid,
+                    card_id=card_id
+                ).delete()
+            return HttpResponse( "Removed from deck" )
+        except ObjectDoesNotExist:
+            return HttpResponse( "Moot" )
+    # JS should avoid POST if nothing changed to avoid pointless SQL
+    obj, created = CardAllocation.objects.update_or_create(
+            stash_id = stash_uuid,
+            card_id = card_id,
+            defaults = { "n_card_in_stash": quantity },
+        )
+    return (obj,created)
+
+@transaction.atomic
+def move_cards_from_to( request ):
+    def call_update( direction, data ):
+        for row in data[ direction ]['update_data']:
+            stash_uuid = data[ direction ]['uuid']
+            card_id = row['card_id']
+            n_card_in_stash = row['n_card_in_stash']
+            __update_calloc( n_card_in_stash, stash_uuid, card_id )
+    data = json.loads(request.body.decode("utf-8"))
+    for direction in ['from_stash','to_stash']:
+        call_update( direction, data )
+    return HttpResponse(status=204)
 

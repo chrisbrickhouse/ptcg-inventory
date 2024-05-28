@@ -68,3 +68,15 @@ def update_calloc( request, stash_uuid ):
             defaults = { "n_card_in_stash": quantity },
         )
     return HttpResponse( "Entry updated!" )
+
+def move_stash( request ):
+    stash_list = CardStash.objects.all()
+    context = {
+            'stash_list': stash_list,
+            'api_url': 'http://localhost:8000/api',
+        }
+    return render(
+            request,
+            "cardstash/bulk_move_page.html",
+            context,
+        )
