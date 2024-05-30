@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+import json
+import dj_database_url
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +28,7 @@ SECRET_KEY = os.environ['CARDSITE_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".awsapprunner.com"]
 
 
 # Application definition
@@ -45,6 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -77,17 +80,21 @@ WSGI_APPLICATION = 'cardsite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        "NAME": "cardsite",
-        'USER': "cardsite",
-        "PASSWORD": os.environ['CARDSITE_SQL_PASSWORD'],
-        "HOST": "mallard",
-        "PORT": "5432"
+if "DATABASE_SECRET" in os.environ:
+    database_secret = os.environ.get("DATABASE_SECRET")
+    db_url = json.loads(database_secret)["DATABASE_URL"]
+    DATABASES = { "default": dj_database_url.parse(db_url) }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            "NAME": "cardsite",
+            'USER': "cardsite",
+            "PASSWORD": os.environ['CARDSITE_SQL_PASSWORD'],
+            "HOST": "mallard",
+            "PORT": "5432"
+        }
     }
-}
 
 
 # Password validation
@@ -125,11 +132,21 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-STATICFILES_DIRS
 STATICFILES_DIRS = [
         BASE_DIR / "static",
     ]
+
+STORAGES = {
+        "default": {
+            "BACKEND": "django.core.files.storage.FileSystemStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "whitenoise.storage.CompressesManifestStaticFilesStorage",
+        }
+    }
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
