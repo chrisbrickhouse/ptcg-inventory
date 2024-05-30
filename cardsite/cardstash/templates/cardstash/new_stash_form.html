@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}Creating new deck{% endblock %}
+{% block import %}
+{% load static %}
+<link href="{% static 'cardstash/new_stash_form.css' %}" rel="stylesheet" />
+{% endblock import %}
+
+{% block title %}Creating new card stash{% endblock %}
 
 {% block content %}
 <form action="new/create" method="post">
