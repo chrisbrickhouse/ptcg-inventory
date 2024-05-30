@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 {% block import %}
-<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script>
 	var api_url = "{{ api_url }}";
@@ -16,19 +15,32 @@
 {% block title %} Moving cards {% endblock %}
 
 {% block content %}
-<select id="from-stash" class="form-select filter-select" aria-label="Card selection">
-	{% for Stash in stash_list %}
-	<option value="{{ Stash.uuid }}">{{ Stash.name }}</option>
-	{% endfor %}
-</select>
-
-<select id="to-stash" class="form-select filter-select" aria-label="Card selection">
-	{% for Stash in stash_list %}
-	<option value="{{ Stash.uuid }}">{{ Stash.name }}</option>
-	{% endfor %}
-</select>
-<button class="btn btn-primary" type="button" id="submitChangesButton">Submit</button>
-<table id='bulkMoveTable'>
-{% include 'cardstash/bulk_move_table_snippets.html' %}
+<h1>Move cards between stashes</h2>
+<div class="row">
+	<select id="from-stash" class="form-select form-control mx-3 mr-md-1 my-2 col-md-5" aria-label="Card selection">
+		{% for Stash in stash_list %}
+		<option value="{{ Stash.uuid }}">{{ Stash.name }}</option>
+		{% endfor %}
+	</select>
+	<select id="to-stash" class="form-select form-control mx-3 mr-md-1 my-2 col-md-5" aria-label="Card selection">
+		{% for Stash in stash_list %}
+		<option value="{{ Stash.uuid }}">{{ Stash.name }}</option>
+		{% endfor %}
+	</select>
+</div>
+<table id='bulkMoveTable' class="table table-hover">
+	<thead class="thead-light">
+		<tr>
+			<th scope="col">Card ID</th>
+			<th scope="col">Card name</th>
+			<th scope="col" id="fromHeader">From stash</th>
+			<th scope="col" id="toHeader">To stash</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
 </table>
+<div class="row">
+	<button class="btn btn-primary mx-3 col-md-1" type="button" id="submitChangesButton">Submit</button>
+</div>
 {% endblock %}

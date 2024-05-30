@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}{{ Stash.name }}{% endblock %} 
+
+{% block content %}
+<h1>{{ Stash.name }}</h1>
+{% block pretable %}
+{% endblock pretable %}
+{% block table %}
+<div class="row">
+	<table class="table table-sm table-narrow-th mx-3 mx-md-0">
+		<tbody>
+			{% block prependrows %}{% endblock %}
+			<tr>
+				<th scope="row">Created:</th>
+				<td>{{ Stash.created }}</td>
+			</tr>
+			<tr>
+				<th scope="row">Last modified:</th>
+				<td>{{ Stash.modified }}</td>
+			</tr>
+			<tr>
+				<th scope="row">Number of cards:</th>
+				<td>{{ Stash.n_cards }}</td>
+			</tr>
+			{% block appendrows %}{% endblock %}
+		</tbody>
+	</table>
+</div>
+{% endblock table %}
+{% block posttable %}
+{% block buttons %}
+<div class="row">
+<a class="btn btn-primary col-md-1 mx-3 mb-1 mr-md-1 ml-md-0" role="button" href="edit">Edit</a>
+<a class="btn btn-danger col-md-1 mx-3 mb-1 mr-md-1 ml-md-0" role="button" href="#">Delete</a>
+</div>
+{% endblock buttons %}
+{% block cardlist %}
+<div class="row">
+{% include 'cardstash/card_list_snippet.html' %}
+</div>
+{% endblock cardlist %}
+{% endblock posttable %}
+{% endblock content %}

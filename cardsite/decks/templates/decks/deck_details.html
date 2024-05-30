@@ -1,11 +1,15 @@
-{% extends "base.html" %}
+{% extends "cardstash/base_stash-details.html" %}
 
-{% block title %}{{ Deck.name }}{% endblock %} 
 
-{% block content %}
-<p>Deck created: {{ Deck.created }}</p>
-<p>Deck format: {{ Deck.get_game_format }}</p>
-<p>Number of cards: {{ Deck.n_cards }}</p>
-<p>Legal? {{ Deck.is_legal }}</p>
-<a href="edit">Edit</a>
+{% block prependrows %}
+<tr>
+	<th scope="row">Deck format:</th>
+	<td>{{ Stash.get_game_format }}</td>
+</tr>
+{% endblock prependrows %}
+{% block appendrows %}
+<tr>
+	<th scope="row">Legal?</th>
+	<td>{{ Stash.is_legal }}</td>
+</tr>
 {% endblock %}

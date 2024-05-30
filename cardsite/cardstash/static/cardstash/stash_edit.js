@@ -55,8 +55,20 @@ $(document).ready(function() {
 
 	$cardSelect = $('.filter-select');
 
-	$cardSelect.select2();
-	$cardSelect.on("select2:selecting", function(){ postDeckChange(); });
+	console.log($cardSelect.width());
+	$cardSelect.select2({
+		theme: "bootstrap-5",
+		selectionCssClass: "mx-3 mx-md-0",
+		dropdownCssClass: "mx-3 mx-md-0",
+		dropdownParent: $cardSelect.parent()
+	});
+	$cardSelect.on("select2:selecting", function(){ 
+		postDeckChange(); 
+	});
+	$cardSelect.on("select2:open", function(){ 
+		console.log('here')
+		$('.select2-dropdown').width($('.select2').width()-2);
+	});
 	$cardSelect.on("change", function(){ resetCardCount(); });
 	$('#card-count-increase').click(function(){incrementCardCount(1)});
 	$('#card-count-decrease').click(function(){incrementCardCount(-1)});

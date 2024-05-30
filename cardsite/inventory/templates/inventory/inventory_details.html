@@ -1,12 +1,13 @@
-{% extends "base.html" %}
+{% extends "cardstash/base_stash-details.html" %}
 
-{% block title %}{{ StorageLocale.name }}{% endblock %} 
-
-{% block content %}
-<p> {{ StorageLocale.description }}</p>
-<p>Created: {{ StorageLocale.created }} </p>
-<p>Last modified: {{ StorageLocale.modified }}</p>
-<p>Number of cards: {{ StorageLocale.n_cards }}</p>
-<a href="edit">Edit</a>
-{% include 'cardstash/card_list_snippet.html' %}
+{% block import %}
+{% load static %}
+<link href="{% static 'inventory/inventory.css' %}" rel="stylesheet" />
 {% endblock %}
+
+
+{% block pretable %}
+<div class="row">
+	<p class="mx-3 mx-md-0">{{ Stash.description }}</p>
+</div>
+{% endblock pretable %}
