@@ -23,12 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['CARDSITE_SECRET_KEY']
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','CARDSITE_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG').lower() in ['true','t','1']
 
-ALLOWED_HOSTS = [".awsapprunner.com"]
+ALLOWED_HOSTS = [
+        "cardsite-dev.us-west-2.elasticbeanstalk.com",
+        "localhost",
+    ]
 
 
 # Application definition
@@ -80,10 +83,17 @@ WSGI_APPLICATION = 'cardsite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
-if "DATABASE_SECRET" in os.environ:
-    database_secret = os.environ.get("DATABASE_SECRET")
-    db_url = json.loads(database_secret)["DATABASE_URL"]
-    DATABASES = { "default": dj_database_url.parse(db_url) }
+if "RDS_DB_NAME" in os.environ:
+    DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': os.environ['RDS_DB_NAME'],
+                'USER': os.environ['RDS_USERNAME'],
+                'PASSWORD': os.environ['RDS_PASSWORD'],
+                'HOST': os.environ['RDS_HOSTNAME'],
+                'PORT': os.environ['RDS_PORT'],
+            }
+        }
 else:
     DATABASES = {
         'default': {
@@ -144,7 +154,7 @@ STORAGES = {
             "BACKEND": "django.core.files.storage.FileSystemStorage",
         },
         "staticfiles": {
-            "BACKEND": "whitenoise.storage.CompressesManifestStaticFilesStorage",
+            "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
         }
     }
 
