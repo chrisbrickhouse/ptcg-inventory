@@ -30,6 +30,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG').lower() in ['true','t','1']
 
 ALLOWED_HOSTS = [
         "cardsite-dev.us-west-2.elasticbeanstalk.com",
+        "cards.christianbrickhouse.com",
         "localhost",
     ]
 
