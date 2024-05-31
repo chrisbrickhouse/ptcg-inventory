@@ -18,16 +18,11 @@ from django.contrib import admin
 from django.urls import include, path
 
 from . import views
-from accounts import views as accounts_views
 
 urlpatterns = [
-    path('', views.index, name="site_index"),
-    path('decks/', include("decks.urls")),
-    path('inventory/', include("inventory.urls")),
-    path('api/', include("api.urls")),
-    path('admin/', admin.site.urls),
-    path('login/', accounts_views.login, name="login"),
-    path('logout/', accounts_views.logout, name="logout"),
-    path('join/', accounts_views.join, name="join"),
-    path('accounts/', include("accounts.urls")),
+    path('', views.index, name="accounts_index"),
+    path('login/', views.login, name="login"),
+    path('logout/', views.logout, name="logout"),
+    path('join/', views.join, name="join"),
+    path('start_session', views.start_session, name="start_session"),
 ]

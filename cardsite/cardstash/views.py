@@ -1,7 +1,9 @@
+from django.contrib.auth.decorators import login_required
 from django.forms import modelform_factory
 from django.shortcuts import render, HttpResponse
 
 from .models import CardAllocation, CardStash
+from cardsite.shortcuts import generic_response
 
 def index( 
           request, 
@@ -11,13 +13,16 @@ def index(
           order_by = "created", 
         ):
     list_of_stashes = StashModel.objects.order_by( order_by )
-    context = { context_name: list_of_stashes }
+    context = { 
+            context_name: list_of_stashes,
+        }
     return render(
             request,
             template_name,
             context = context,
         )
 
+@login_required
 def new_stash( 
               request, 
               StashModel, 
@@ -31,7 +36,9 @@ def new_stash(
             fields = fields,
             labels = labels,
         )
-    context = { "form": NewStashForm().render( form_snippet ) }
+    context = { 
+            "form": NewStashForm().render( form_snippet ),
+        }
     return render(
             request,
             template_name,
@@ -41,11 +48,13 @@ def new_stash(
 def __get_headers( request, headers ):
     return { k:v for k,v in request.POST.items() if k in headers }
 
+@login_required
 def create_stash_entry( request, StashModel, headers ):
     kwargs = __get_headers( request, headers )
     new_entry = StashModel.objects.create( **kwargs )
-    return HttpResponse( "Deck created" )
+    return generic_response( request, 'Stash created!' )
 
+@login_required
 def update_calloc( request, stash_uuid ):
     try:
         card_id = request.POST['card_id']
@@ -69,6 +78,7 @@ def update_calloc( request, stash_uuid ):
         )
     return HttpResponse( "Entry updated!" )
 
+@login_required
 def move_stash( request ):
     stash_list = CardStash.objects.all()
     context = {
