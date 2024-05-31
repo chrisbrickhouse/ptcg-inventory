@@ -1,0 +1,7 @@
+div.row {
+	padding: 0.5em 0em;
+}
+
+.row > .row-item {
+	margin-right: 1em;
+}

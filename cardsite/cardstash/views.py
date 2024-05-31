@@ -80,3 +80,15 @@ def move_stash( request ):
             "cardstash/bulk_move_page.html",
             context,
         )
+
+def stash_details( request, StashInstance, template_name ):
+    card_list = CardAllocation.objects.filter( stash_id = StashInstance.uuid )
+    context = {
+            'Stash': StashInstance,
+            'stash_list': card_list
+        }
+    return render(
+            request,
+            template_name,
+            context
+        )

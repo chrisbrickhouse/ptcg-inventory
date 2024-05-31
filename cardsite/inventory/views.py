@@ -38,15 +38,10 @@ def create_storage_locale_entry( request ):
 
 def storage_locale_details( request, storage_uuid ):
     storage_locale_instance = StorageLocale.objects.get( uuid = storage_uuid )
-    inventory_list = CardAllocation.objects.filter( stash_id = storage_uuid )
-    context = {
-            'StorageLocale': storage_locale_instance,
-            'stash_list': inventory_list
-        }
-    return render(
+    return cardstash.views.stash_details(
             request,
+            storage_locale_instance,
             'inventory/inventory_details.html',
-            context
         )
 
 def edit_stored_cards( request, storage_uuid ):

@@ -3,12 +3,16 @@
 {% block title %}Inventory{% endblock %} 
 
 {% block content %}
+<div class="row">
+	<a class="btn btn-primary mx-3 mx-md-0 my-1" href="/inventory/new" role="button">Add a storage location</a>
+</div>
+<div class="row">
 	{% if list_of_storage_locales %}
-	<table>
-		<thead>
+	<table class="table table-hover mx-3 mx-md-0">
+		<thead class="thead-light">
 			<tr>
-				<th scope="col">Qty</th>
-				<th scope="col">Name</th>
+				<th scope="col">#&nbsp;Cards</th>
+				<th scope="col">Inventory Name</th>
 				<th scope="col">Last updated</th>
 				<th scope="col">Description</th>
 			</tr>
@@ -27,5 +31,5 @@
 	{% else %}
 		<p>No storage locations have been created yet.</p>
 	{% endif %}
-	<a class="btn btn-primary" href="/inventory/new" role="button">Add a storage location</a>
+</div>
 {% endblock %}

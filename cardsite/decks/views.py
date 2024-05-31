@@ -36,12 +36,11 @@ def create_deck_entry( request ):
 
 def deck_details( request, deck_uuid ):
     deck_instance = Deck.objects.get( uuid = deck_uuid )
-    template = loader.get_template( "decks/deck_details.html" )
-    context = {
-            'Deck': deck_instance
-        }
-
-    return HttpResponse( template.render( context, request ) )
+    return cardstash.views.stash_details(
+            request,
+            deck_instance,
+            "decks/deck_details.html"
+        )
 
 def edit_deck( request, deck_uuid ):
     def format_query( deck_format ):

@@ -1,0 +1,6 @@
+form {
+	border: 1pt solid var(--gray);
+	border-radius: 1rem;
+	padding: 2rem;
+	margin-top: 1rem;
+}

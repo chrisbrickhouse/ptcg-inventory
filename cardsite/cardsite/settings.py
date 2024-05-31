@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'decks.apps.DecksConfig',
     'cardstash.apps.CardstashConfig',
     'inventory.apps.InventoryConfig',
+    'widget_tweaks', # https://github.com/jazzband/django-widget-tweaks
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

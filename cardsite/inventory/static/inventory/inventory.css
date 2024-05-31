@@ -1,0 +1,7 @@
+.table-narrow-th th {
+	width: 25%;
+}
+
+.table-narrow-th td {
+	width: 75%;
+}

@@ -3,14 +3,27 @@
 {% block title %}Decks{% endblock %} 
 
 {% block content %}
-	{% if list_of_decks %}
-		<ul>
+<div class="row">
+	<a class="btn btn-primary mx-3 my-1 col-md-2" href="/decks/new" role="button">Make new deck</a>
+</div>
+<div class="row">
+	<table class="table mx-3">
+		<thead>
+		<tr>
+			<th scope="col">Deck name</th>
+			<th scope="col">Format</th>
+			<th scope="col">Modified</th>
+		</tr>
+		</thead>
+		<tbody>
 		{% for deck in list_of_decks %}
-			<li><a href="/decks/{{ deck.uuid }}">{{ deck.name }}</a></li>
+		<tr>
+			<td><a href="/decks/{{ deck.uuid }}">{{ deck.name }}</a></td>
+			<td>{{ deck.get_game_format }}</td>
+			<td>{{ deck.modified }}</td>
+		</tr>
 		{% endfor %}
-		</ul>
-	{% else %}
-		<p>No decks have been created yet.</p>
-	{% endif %}
-	<a class="btn btn-primary" href="/decks/new" role="button">Make new deck</a>
+		</tbody>
+	</table>
+</div>
 {% endblock %}

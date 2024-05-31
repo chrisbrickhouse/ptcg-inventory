@@ -2,7 +2,7 @@ function loadTable( tableId, data ) {
 	var rows = '';
 	$.each( Object.keys(data), function(index, card_id) {
 		function makeInput( name, val, max_n ) {
-			var input = '<input type="number" name="';
+			var input = '<input class="form-control" style="width: 100%;" type="number" name="';
 			input += name;
 			input += '" defaultValue="'+val+'" value="'+val+'" ';
 			input += 'min="0" max="'+max_n+'" >';
@@ -111,9 +111,14 @@ $(document).ready(function() {
 		$('#toHeader').html("Number in "+$toStash.find('option:selected').text());
 	}
 		
-	$selectWidgets = $('.filter-select');
-	$selectWidgets.select2();
-
+	/*$selectWidgets = $('.filter-select');
+	$selectWidgets.select2({
+		theme: "bootstrap-5",
+		selectionCssClass: "mx-3 mx-md-3",
+		dropdownCssClass: "mx-3 mx-md-3",
+		//dropdownParent: $selectWidgets.parent()
+	});
+*/
 	$fromStash = $('#from-stash')
 	$toStash = $('#to-stash')
 
