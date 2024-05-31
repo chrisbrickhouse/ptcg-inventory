@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Inventory{% endblock %} 
+
+{% block content %}
+	{% if list_of_storage_locales %}
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Qty</th>
+				<th scope="col">Name</th>
+				<th scope="col">Last updated</th>
+				<th scope="col">Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for storage_locale in list_of_storage_locales %}
+			<tr>
+				<td>{{ storage_locale.n_cards }}</td>
+				<td><a href="/inventory/{{ storage_locale.uuid }}">{{ storage_locale.name }}</a></td>
+				<td>{{ storage_locale.modified }}</td>
+				<td>{{ storage_locale.description }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	{% else %}
+		<p>No storage locations have been created yet.</p>
+	{% endif %}
+	<a class="btn btn-primary" href="/inventory/new" role="button">Add a storage location</a>
+{% endblock %}

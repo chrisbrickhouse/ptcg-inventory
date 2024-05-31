@@ -1,10 +1,9 @@
 from django.urls import path
 
-from . import views, api
+from . import views
 
 urlpatterns = [
         path( "", views.index, name = "index" ),
-        path( "api", api.index),
         path( "new", views.new_deck, name = "new" ),
         path( "new/create", views.create_deck_entry, name = "create" ),
         path( "<uuid:deck_uuid>/", views.deck_details, name = "deck_details" ),

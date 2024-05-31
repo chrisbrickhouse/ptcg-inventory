@@ -26,15 +26,15 @@ To get the site running, you need to modify `cardsite/my_pokemon_cards/settings.
    - ~~New deck~~
    - ~~Deck details~~
    - ~~Add and remove cards from deck~~
- - Implement storage locations
-   - Generic CardStash table
-   - Migrate Deck to subclass of CardStash
-   - Migrate CardAllocation to use CardStash
- - Collection overview page
-   - List summary stats for a collection
-   - Overview of each CardStash
- - CardStash to CardStash allocation interface
-   - Select two CardStashes and move cards between them
+ - ~~Implement storage locations~~
+   - ~~Generic CardStash table~~
+   - ~~Migrate Deck to subclass of CardStash~~ (Destructive)
+   - ~~Migrate CardAllocation to use CardStash~~ (Destructive)
+ - ~~Collection overview page~~
+   - ~~List summary stats for a collection~~
+ - ~~Overview of each CardStash~~
+ - ~~CardStash to CardStash allocation interface~~
+   - ~~Select two CardStashes and move cards between them~~
    - Modify Deck building interface to wrap this as an implementation of moving cards to and from  deck and storage
  - Feature Freeze
    - Improve testing and fix observed bugs
