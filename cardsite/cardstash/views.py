@@ -83,7 +83,7 @@ def move_stash( request ):
     stash_list = CardStash.objects.all()
     context = {
             'stash_list': stash_list,
-            'api_url': 'http://localhost:8000/api',
+            'api_url': '/api',
         }
     return render(
             request,

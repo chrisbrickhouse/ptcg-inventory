@@ -65,7 +65,7 @@ def edit_deck( request, deck_uuid ):
             'card_list': legal_cards,
             'stash_list': deck_list,
             'post_url': 'update_calloc',
-            'api_url': 'http://localhost:8000/api',
+            'api_url': '/api',
         }
     print(context)
     return HttpResponse( template.render( context, request ) )
