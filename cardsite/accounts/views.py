@@ -22,9 +22,17 @@ def login( request ):
 def logout( request ):
     if request.user.is_authenticated:
         auth.logout( request )
-        return generic_response( request, 'Log out successful!' )
+        return generic_response( 
+                request, 
+                message = '<p>Log out successful!</p>',
+                header = 'Logged out'
+            )
     else:
-        return generic_response( request, 'You are not logged in' )
+        return generic_response( 
+                request,
+                message = '<p>You are not logged in</p>',
+                header = "Cannot log out",
+            )
 
 
 def start_session( request ):
@@ -38,8 +46,10 @@ def start_session( request ):
         return login()
 
 def join( request ):
-    return render(
+    message = "<p><em>Where's that Pokemon?</em> is currently in closed beta. As of 1 June 2024, accounts are granted on an invite-only basis. There are no plans for an open beta yet, but in the near future we may set up a waiting list for account requests. Check this page later for a request form!</p>"
+    header = "Interested in joining?"
+    return generic_response(
             request,
-            'base.html',
-            {}
+            message,
+            header,
         )
