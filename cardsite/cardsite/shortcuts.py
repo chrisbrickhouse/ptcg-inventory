@@ -1,10 +1,11 @@
 from django.shortcuts import render
 
-def generic_response( request, message ):
+def generic_response( request, message, header='' ):
     return render(
             request,
-            'base.html',
+            'generic_response.html',
             {
-                'message': message
+                'message': message,
+                'header': header,
             }
         )
