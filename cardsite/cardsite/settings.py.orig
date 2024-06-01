@@ -41,7 +41,11 @@ INSTALLED_APPS = [
     'decks.apps.DecksConfig',
     'cardstash.apps.CardstashConfig',
     'inventory.apps.InventoryConfig',
+<<<<<<< HEAD
     'accounts',
+=======
+    'cardsite',
+>>>>>>> 87bfbbb (Create remote superuser for site admin)
     'widget_tweaks', # https://github.com/jazzband/django-widget-tweaks
     'django.contrib.admin',
     'django.contrib.auth',
@@ -49,7 +53,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cardsite',
 ]
 
 MIDDLEWARE = [
