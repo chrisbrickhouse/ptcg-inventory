@@ -22,9 +22,6 @@
     {% include 'sidebar.html' %}
 
     <div id="content" class="container">
-	{% if message %}
-	<p>{{ message }}</p>
-	{% endif %}
         {% block content %}{% endblock %}
     </div>
 

@@ -25,13 +25,15 @@ def logout( request ):
         return generic_response( 
                 request, 
                 message = '<p>Log out successful!</p>',
-                header = 'Logged out'
+                header = 'Logged out',
+                is_safe = True,
             )
     else:
         return generic_response( 
                 request,
                 message = '<p>You are not logged in</p>',
                 header = "Cannot log out",
+                is_safe = True,
             )
 
 
@@ -52,4 +54,6 @@ def join( request ):
             request,
             message,
             header,
+            title = "Join!",
+            is_safe = True,
         )
