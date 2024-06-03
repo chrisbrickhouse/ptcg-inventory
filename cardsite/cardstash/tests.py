@@ -1,5 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
-from django.test import TestCase
+from django.test import RequestFactory, TestCase
 
 from .models import CardStash, CardAllocation
 

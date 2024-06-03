@@ -28,6 +28,7 @@ def new_deck( request, error = None ):
         )
 
 def create_deck_entry( request ):
+    # Deprecated, should probably use API instead
     headers = [ 'name', 'game_format' ]
     return cardstash.views.create_stash_entry( 
             request,
@@ -67,7 +68,6 @@ def edit_deck( request, deck_uuid ):
             'post_url': 'update_calloc',
             'api_url': '/api',
         }
-    print(context)
     return HttpResponse( template.render( context, request ) )
 
 def update_calloc( request, deck_uuid ):
