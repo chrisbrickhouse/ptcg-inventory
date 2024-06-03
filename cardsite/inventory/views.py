@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.forms import modelform_factory
 from django.shortcuts import render, HttpResponse
 from django.template import loader
@@ -44,6 +45,7 @@ def storage_locale_details( request, storage_uuid ):
             'inventory/inventory_details.html',
         )
 
+@login_required
 def edit_stored_cards( request, storage_uuid ):
     storage_instance = StorageLocale.objects.get( uuid = storage_uuid )
     card_list = Card.objects.all()
