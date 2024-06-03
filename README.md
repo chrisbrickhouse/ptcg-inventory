@@ -36,11 +36,21 @@ To get the site running, you need to modify `cardsite/my_pokemon_cards/settings.
  - ~~CardStash to CardStash allocation interface~~
    - ~~Select two CardStashes and move cards between them~~
    - Modify Deck building interface to wrap this as an implementation of moving cards to and from  deck and storage
+ - User accounts phase 1
+   - ~~Gate database access to logged-in users (security)~~
  - Feature Freeze
    - Improve testing and fix observed bugs
-   - Front-end styling to make the interface pretty
- - Release 1.0 - minimal viable product
+   - ~~Front-end styling to make the interface pretty~~
+ - *Release 1.0 - minimal viable product*
  - TCG Player integration
+   - (prereq?) InventoriedCard subclass of Card to handle card-specific metadata
+     - Currently no way to distinguish normal vs reverse holo, different stamps, different langs, conditions, etc
+     - e.g. Two pgo-1 cards could have different prices because one is Lightly Played and the other is a PSA 7
+     - More extensible than modding the card DB
    - [Pricing for cards](https://docs.tcgplayer.com/reference/pricing) in collection or needed for decks
    - (Long term, needs defined) [Store management integration](https://docs.tcgplayer.com/reference/stores)
- - User accounts (Long term, needs defined)
+ - User accounts phases 2+ (Long term, needs defined)
+   - Add "created by" field to stash objects
+   - Implement permissions for accessing and modifying stash objects
+ - Add back Card-specific data
+   - Card images, attacks, etc were removed for simplicity in 1.0 fixtures
