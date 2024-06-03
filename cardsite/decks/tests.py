@@ -1,5 +1,3 @@
-import urllib
-
 from django.contrib.auth.models import AnonymousUser, User
 from django.contrib.humanize.templatetags import humanize
 from django.test import RequestFactory, TestCase
