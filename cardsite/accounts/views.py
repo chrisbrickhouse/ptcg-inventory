@@ -45,7 +45,7 @@ def start_session( request ):
         auth.login( request, user )
         return redirect('/')
     else:
-        return login()
+        return login(request)
 
 def join( request ):
     message = "<p><em>Where's that Pokemon?</em> is currently in closed beta. As of 1 June 2024, accounts are granted on an invite-only basis. There are no plans for an open beta yet, but in the near future we may set up a waiting list for account requests. Check this page later for a request form!</p>"
