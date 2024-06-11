@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'decks.apps.DecksConfig',
     'cardstash.apps.CardstashConfig',
     'inventory.apps.InventoryConfig',
+    'accounts',
     'widget_tweaks', # https://github.com/jazzband/django-widget-tweaks
     'django.contrib.admin',
     'django.contrib.auth',
@@ -135,3 +136,7 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# User authentication
+# https://docs.djangoproject.com/en/5.0/topics/auth/default/#limiting-access-to-logged-in-users
+LOGIN_URL = '/login/'

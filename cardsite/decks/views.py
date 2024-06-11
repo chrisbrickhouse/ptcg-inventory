@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ObjectDoesNotExist
 from django.forms import modelform_factory
 from django.shortcuts import HttpResponse
@@ -42,6 +43,7 @@ def deck_details( request, deck_uuid ):
             "decks/deck_details.html"
         )
 
+@login_required
 def edit_deck( request, deck_uuid ):
     def format_query( deck_format ):
         match deck_format:
@@ -63,7 +65,7 @@ def edit_deck( request, deck_uuid ):
             'card_list': legal_cards,
             'stash_list': deck_list,
             'post_url': 'update_calloc',
-            'api_url': 'http://localhost:8000/api',
+            'api_url': '/api',
         }
     print(context)
     return HttpResponse( template.render( context, request ) )

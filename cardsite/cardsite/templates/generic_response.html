@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+{% block content %}
+{% if header %}
+<h1>{{ header }}</h1>
+{% endif %}
+{% if is_safe %}
+{{ message|safe }}
+{% else %}
+{{ message }}
+{% endif %}
+{% endblock content %}
+

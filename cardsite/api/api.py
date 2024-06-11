@@ -4,7 +4,7 @@ from django.apps import AppConfig
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import transaction
 from django.http import JsonResponse
-from django.shortcuts import HttpResponse
+from django.shortcuts import HttpResponse, redirect
 from django.template import loader
 from django.utils.translation import gettext_lazy as text
 
@@ -16,6 +16,15 @@ def api_error( reason ):
             reason_phrase = 'Malformed request: '+reason,
             status_code = 400
         )
+
+def access_requires_auth( func ):
+    def check_auth( request ):
+        if not request.user.is_authenticated:
+            print('Not authorized!')
+            return redirect('/login')
+        return func( request )
+    return check_auth
+
 
 def index( request ):
     """Entry point for the api.
@@ -137,6 +146,7 @@ def get_bulk_move_table( request, from_stash_uuid, to_stash_uuid ):
         merged_data[card['card_id']] = entry
     return JsonResponse(merged_data)
 
+@access_requires_auth
 def update_stash( request, stash_uuid ):
     try:
         stash_type = request.POST['stash_type']
@@ -153,6 +163,7 @@ def update_stash( request, stash_uuid ):
     stash_instance.update( **update_data )
     return HttpResponse( status=204 )
 
+@access_requires_auth
 @transaction.atomic
 def __update_calloc( quantity, stash_uuid, card_id ):
     if int(quantity) < 1:
@@ -172,6 +183,7 @@ def __update_calloc( quantity, stash_uuid, card_id ):
         )
     return (obj,created)
 
+@access_requires_auth
 @transaction.atomic
 def move_cards_from_to( request ):
     def call_update( direction, data ):
@@ -180,6 +192,7 @@ def move_cards_from_to( request ):
             card_id = row['card_id']
             n_card_in_stash = row['n_card_in_stash']
             __update_calloc( n_card_in_stash, stash_uuid, card_id )
+
     data = json.loads(request.body.decode("utf-8"))
     for direction in ['from_stash','to_stash']:
         call_update( direction, data )

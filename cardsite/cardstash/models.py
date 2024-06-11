@@ -1,6 +1,7 @@
 from datetime import datetime
 import uuid
 
+from django.contrib.auth.models import User
 from django.db import models
 from django.db.models import Sum
 
@@ -45,6 +46,8 @@ class CardStash( models.Model ):
             'decks.Card',
             through = "CardAllocation",
         )
+    
+    # User who created the deck
 
     def n_cards( self ):
         """Return the number of cards allocated to the deck

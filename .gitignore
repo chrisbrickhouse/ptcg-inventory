@@ -90,3 +90,6 @@ node_modules
 
 .env
 db.sqlite3
+
+### Vim ###
+*.orig

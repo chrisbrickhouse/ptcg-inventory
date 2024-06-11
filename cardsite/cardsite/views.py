@@ -4,5 +4,5 @@ def index( request ):
     return render(
             request,
             'cardsite/index.html',
-            {}
+            {'request':request}
         )
