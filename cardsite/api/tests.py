@@ -3,7 +3,7 @@ from django.contrib.humanize.templatetags import humanize
 from django.test import RequestFactory, TestCase
 from django.urls import reverse
 
-from .api import get_n_card_in, index
+from .api import get_n_card_in, index, get_bulk_move_table, update_stash
 from cardstash.models import CardStash
 
 class ApiInterfaceTests( TestCase ):
@@ -48,4 +48,45 @@ class ApiInterfaceTests( TestCase ):
         response = get_n_card_in( request, self.TestStash.uuid )
         self.assertContains( response, test_quant )
 
-    def test_bulk_update( self ):
+    def test_get_bulk_move_table( self ):
+        from_test_card_id = 'sv3-162'
+        from_test_card_name = 'Pidgey'
+        from_test_card_quant = 5
+        to_test_card_id = 'sv3-163'
+        to_test_card_name = 'Pidgeotto'
+        to_test_card_quant = 2
+        both_test_card_id = 'sv3-164'
+        both_from_test_card_quant = 3
+        both_to_test_card_quant = 2
+        both_test_card_name = 'Pidgeot ex'
+        expected_json = {
+                from_test_card_id: {
+                    'from_quantity': from_test_card_quant,
+                    'to_quantity': 0,
+                    'card_name': from_test_card_name,
+                },
+                to_test_card_id: {
+                    'from_quantity': 0,
+                    'to_quantity': to_test_card_quant,
+                    'card_name': to_test_card_name,
+                },
+                both_test_card_id: {
+                    'from_quantity': both_from_test_card_quant,
+                    'to_quantity': both_to_test_card_quant,
+                    'card_name': both_test_card_name,
+                }
+            }
+        from_stash = CardStash.objects.create( name = 'TestFromStash' )
+        from_stash.allocate( card_id = from_test_card_id, quantity = from_test_card_quant )
+        from_stash.allocate( card_id = both_test_card_id, quantity = both_from_test_card_quant )
+        to_stash = CardStash.objects.create( name = 'TestToStash' )
+        to_stash.allocate( card_id = to_test_card_id, quantity = to_test_card_quant )
+        to_stash.allocate( card_id = both_test_card_id, quantity = both_to_test_card_quant )
+        request = self.request_factory.get(
+               reverse( "api_get_bulk_move_table", args = [from_stash.uuid, to_stash.uuid] )
+            )
+        response = get_bulk_move_table( request, from_stash.uuid, to_stash.uuid )
+        self.assertJSONEqual(
+                str(response.content, encoding='utf-8'),
+                expected_json
+            )
