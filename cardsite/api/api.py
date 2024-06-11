@@ -3,7 +3,7 @@ import json
 from django.apps import AppConfig
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import transaction
-from django.http import JsonResponse
+from django.http import HttpResponseBadRequest, JsonResponse
 from django.shortcuts import HttpResponse, redirect
 from django.template import loader
 from django.utils.translation import gettext_lazy as text
@@ -12,10 +12,7 @@ from decks.models import Card, Deck
 from cardstash.models import CardAllocation
 
 def api_error( reason ):
-    return HttpResponse(
-            reason_phrase = 'Malformed request: '+reason,
-            status_code = 400
-        )
+    return HttpResponseBadRequest('Malformed request: '+reason)
 
 def access_requires_auth( func ):
     def check_auth( request ):
@@ -54,7 +51,7 @@ def index( request ):
         return __getBulkMoveTable( request )
     # Refuse to brew coffee with teapot
     return HttpResponse(
-            status_code = 418
+            status = 418
         )
 
 def __count( request ):

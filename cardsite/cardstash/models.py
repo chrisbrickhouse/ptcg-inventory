@@ -1,9 +1,10 @@
-from datetime import datetime
 import uuid
 
 from django.contrib.auth.models import User
+from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
 from django.db.models import Sum
+from django.utils import timezone
 
 class CardStash( models.Model ):
     """Metadata associated with a collection of cards
@@ -33,12 +34,12 @@ class CardStash( models.Model ):
     # Date and time stats
     created = models.DateTimeField( 
             "date created",
-            default = datetime.now,
+            default = timezone.now,
             editable = False
         )
     modified = models.DateTimeField( 
             "date modified",
-            default = datetime.now,
+            default = timezone.now,
             editable = True
         )
     # Which cards are associated with this deck
@@ -54,6 +55,26 @@ class CardStash( models.Model ):
         """
         calloc = CardAllocation.objects.filter( stash_id = self.uuid )
         return calloc.aggregate( Sum( "n_card_in_stash" ) )['n_card_in_stash__sum']
+
+    def delete_allocation( self, card_id ):
+        try:
+            CardAllocation.objects.get(
+                    stash_id = self.uuid,
+                    card_id = card_id,
+                ).delete()
+        except ObjectDoesNotExist:
+            return
+
+    def allocate( self, card_id, quantity=1 ):
+        if quantity == 0:
+            return self.delete_allocation( card_id )
+        if quantity < 0:
+            raise ValueError( "Cannot allocate negative quantities." )
+        obj, created = CardAllocation.objects.update_or_create(
+                stash_id = self.uuid,
+                card_id = card_id,
+                n_card_in_stash = quantity,
+            )
 
 
 class CardAllocation( models.Model ):
