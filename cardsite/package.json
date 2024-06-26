@@ -1,12 +1,20 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.12.9",
+    "ptcgo-parser": "^0.8.1"
   },
   "name": "ptcg-inventory-site",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "homepage": "https://github.com/chrisbrickhouse/ptcg-inventory#readme",
   "bugs": {
@@ -24,5 +32,19 @@
     "url": "https://github.com/chrisbrickhouse/ptcg-inventory.git"
   },
   "license": "GPL-3.0-or-later",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "prettier": "^3.3.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-bundle-tracker": "^3.1.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
 }

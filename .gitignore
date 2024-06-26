@@ -93,3 +93,7 @@ db.sqlite3
 
 ### Vim ###
 *.orig
+
+### django-webpack-loader ###
+webpack-stats.json
+cardsite/assets/webpack_bundles/

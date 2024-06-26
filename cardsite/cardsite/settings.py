@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'inventory.apps.InventoryConfig',
     'accounts',
     'widget_tweaks', # https://github.com/jazzband/django-widget-tweaks
+    'webpack_loader', # https://github.com/django-webpack/django-webpack-loader
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -130,8 +131,18 @@ STATIC_URL = 'static/'
 
 # https://docs.djangoproject.com/en/5.0/ref/settings/#std-setting-STATICFILES_DIRS
 STATICFILES_DIRS = [
-        BASE_DIR / "static",
+        BASE_DIR / "assets",
     ]
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'webpack_bundles/',
+        'CACHE': not DEBUG,
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+        'POLL_INTERVAL': 0.1,
+        'IGNORE': [r'.+\.hot-update.js', r'.+\.map'],
+    }
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
