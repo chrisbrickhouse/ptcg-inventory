@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block import %}
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'decklist' 'js' %}
+{% endblock import %}
+
+{% block content %}
+<textarea id="decklist-textarea">
+Pokemon: 0
+
+Trainers: 0
+
+Energy: 0
+</textarea>
+<button id="decklist-import-button" type="button" class="btn btn-outline-success">Import</button>
+{% endblock %}
