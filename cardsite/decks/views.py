@@ -73,7 +73,7 @@ def edit_deck( request, deck_uuid ):
 def update_calloc( request, deck_uuid ):
     return cardstash.views.update_calloc( request, deck_uuid )
 
-def import_decklist( request ):
+def import_decklist( request, deck_uuid ):
     template = loader.get_template( "decks/input_decklist.html" )
-    context = {}
+    context = {'stashid': deck_uuid}
     return HttpResponse( template.render( context, request ) )

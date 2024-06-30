@@ -15,11 +15,11 @@ def api_error( reason ):
     return HttpResponseBadRequest('Malformed request: '+reason)
 
 def access_requires_auth( func ):
-    def check_auth( request ):
+    def check_auth( request, *args, **kwargs ):
         if not request.user.is_authenticated:
             print('Not authorized!')
             return redirect('/login')
-        return func( request )
+        return func( request, *args, **kwargs )
     return check_auth
 
 
@@ -162,7 +162,7 @@ def update_stash( request, stash_uuid ):
 
 @access_requires_auth
 @transaction.atomic
-def __update_calloc( quantity, stash_uuid, card_id ):
+def __update_calloc( request, quantity, stash_uuid, card_id ):
     if int(quantity) < 1:
         try:
             CardAllocation.objects.get(
@@ -182,13 +182,25 @@ def __update_calloc( quantity, stash_uuid, card_id ):
 
 @access_requires_auth
 @transaction.atomic
+def update_from_decklist( request ):
+    data = json.loads(request.body.decode("utf-8"))
+    for row in data['update_data']:
+        print(row)
+        stash_uuid = data['uuid']
+        card_id = row['card_id']
+        qty = row['quantity']
+        __update_calloc( request, qty, stash_uuid, card_id )
+    return HttpResponse(status=204)
+
+@access_requires_auth
+@transaction.atomic
 def move_cards_from_to( request ):
     def call_update( direction, data ):
         for row in data[ direction ]['update_data']:
             stash_uuid = data[ direction ]['uuid']
             card_id = row['card_id']
             n_card_in_stash = row['n_card_in_stash']
-            __update_calloc( n_card_in_stash, stash_uuid, card_id )
+            __update_calloc( request, n_card_in_stash, stash_uuid, card_id )
 
     data = json.loads(request.body.decode("utf-8"))
     for direction in ['from_stash','to_stash']:
