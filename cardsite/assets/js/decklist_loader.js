@@ -9,11 +9,22 @@ const api_url = '/api';
 function getUpdateData( cardEntry ) {
 	var card_id = cardEntry.ptcgoio.id
 	var qty = cardEntry.amount
-	console.log(card_id,qty)
 	return {
 		'card_id': card_id,
 		'quantity': qty
 	}
+}
+
+function makeRow( cardEntry ) {
+	var card_id = cardEntry.ptcgoio.id
+	var qty = cardEntry.amount
+	var card_name = cardEntry.name
+	let ret = '<tr>'
+	ret += '<td>'+qty+'</td>'
+	ret += '<td>'+card_name+'</td>'
+	ret += '<td>'+card_id+'</td>'
+	ret += '</tr>'
+	return ret
 }
 
 function pushBulkChanges( decklistJSON ) {
@@ -34,8 +45,15 @@ function pushBulkChanges( decklistJSON ) {
 		data: JSON.stringify(updateData),
 		dataType: 'json',
 		contentType: 'application/json; charset=utf-8',
-		success: function(resultData){console.log('updated!')},
-		failure: function(resultData){console.log('failed')}
+		success: function(resultData){
+			decklistJSON.cards.forEach( (card) =>
+				$('tbody').append( makeRow( card ) )
+			);
+			$('#decklist-import-button').removeClass('btn-primary btn-danger').addClass('btn-success').text('Success!').prop('disabled',true)
+		},
+		failure: function(resultData){
+			$('#decklist-import-button').removeClass('btn-primary btn-success').addClass('btn-danger').text('Failed?')
+		}
 	});
 }
 

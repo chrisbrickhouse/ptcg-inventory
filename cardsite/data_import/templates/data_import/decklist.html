@@ -2,16 +2,22 @@
 {% block import %}
 {% load render_bundle from webpack_loader %}
 {% render_bundle 'decklist' 'js' %}
+{% load static %}
+<link href="{% static 'cardstash/new_stash_form.css' %}" rel="stylesheet" />
 {% endblock import %}
 
 {% block content %}
-<textarea id="decklist-textarea" data-stashid="{{ stashid }}">
-Pokemon: 0
+<form>
+	<div class="form-group">
+	<label for="decklist-textarea">PTCGO Deck list:</label>
+	<textarea id="decklist-textarea" data-stashid="{{ stashid }}">Pokemon: 0
 
 Trainers: 0
 
-Energy: 0
-</textarea>
-<button id="decklist-import-button" type="button" class="btn btn-outline-success">Import</button>
+Energy: 0</textarea>
+	</div>
+	<button id="decklist-import-button" type="button" class="btn btn-primary">Import</button>
+	<a class="btn btn-secondary" href=".." role="button">Go to deck details</a>
+</form>
 {% include "cardstash/card_list_snippet.html" %}
 {% endblock %}

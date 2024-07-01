@@ -2,11 +2,15 @@
 {% block import %}
 {% load render_bundle from webpack_loader %}
 {% render_bundle 'tabular' 'js' %}
+{% load static %}
+<link href="{% static 'cardstash/new_stash_form.css' %}" rel="stylesheet" />
 {% endblock import %}
 
 {% block content %}
-{{form}}
-<button id="tabular-import-check-button" type="button" class="btn btn-primary" disabled>Check</button>
-<button id="tabular-import-button" type="button" class="btn btn-secondary" disabled>Import</button>
+<form>
+	{{form}}
+	<button id="tabular-import-check-button" type="button" class="btn btn-primary" disabled>Check</button>
+	<button id="tabular-import-button" type="button" class="btn btn-secondary" disabled>Import</button>
+</form>
 {% include "cardstash/card_list_snippet.html" %}
 {% endblock %}
