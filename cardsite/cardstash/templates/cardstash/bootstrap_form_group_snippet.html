@@ -1,6 +1,6 @@
 {% load widget_tweaks %}
 {% for field in form %}
-<div class="form-group">
+<div class="form-group" id="{{field.id_for_label}}_group">
 	<label for="{{field.id_for_label}}" class="">{{field.label}}</label> 
 	{% render_field field class+="form-control" %}
 	<small id="{{field.id_for_label}}_helptext" class="form-text text-muted">{{field.help_text}}</small>

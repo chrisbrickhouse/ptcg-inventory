@@ -6,7 +6,8 @@ module.exports = {
   context: __dirname,
   entry: {
 	  main: "./assets/js/index.js",
-	  decklist: "./assets/js/decklist_loader.js"
+	  decklist: "./assets/js/decklist_loader.js",
+	  tabular: "./assets/js/tabular_loader.js"
   },
   output: {
     path: path.resolve(__dirname, "assets/webpack_bundles/"),

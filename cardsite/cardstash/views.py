@@ -102,3 +102,10 @@ def stash_details( request, StashInstance, template_name ):
             template_name,
             context
         )
+
+def import_tabular( request ):
+    return render(
+            request,
+            'data_import/tabular.html',
+            {}
+        )

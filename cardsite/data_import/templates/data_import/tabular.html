@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block import %}
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'tabular' 'js' %}
+{% endblock import %}
+
+{% block content %}
+{{form}}
+<button id="tabular-import-check-button" type="button" class="btn btn-primary" disabled>Check</button>
+<button id="tabular-import-button" type="button" class="btn btn-secondary" disabled>Import</button>
+{% include "cardstash/card_list_snippet.html" %}
+{% endblock %}

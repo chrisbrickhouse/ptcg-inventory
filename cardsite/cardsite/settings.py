@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'decks.apps.DecksConfig',
     'cardstash.apps.CardstashConfig',
     'inventory.apps.InventoryConfig',
+    'data_import.apps.DataImportConfig',
     'accounts',
     'widget_tweaks', # https://github.com/jazzband/django-widget-tweaks
     'webpack_loader', # https://github.com/django-webpack/django-webpack-loader
