@@ -1,21 +1,14 @@
 {% extends "base.html" %}
 
 {% block import %}
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script>
-	var api_url = "{{ api_url }}";
-	var post_url = "{{ post_url }}";
-	var stash_uuid = "{{ Stash.uuid }}";
-	var csrf_token = "{{ csrf_token }}";
-</script>
-{% load static %}
-<script src="{% static 'cardstash/bulk_move.js' %}"></script>
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'bulk_move' 'js' %}
 {% endblock %}
 
 {% block title %} Moving cards {% endblock %}
 
 {% block content %}
-<h1>Move cards between stashes</h2>
+<h2>Move cards between stashes</h2>
 <div class="row">
 	<select id="from-stash" class="form-select form-control mx-3 mr-md-1 my-2 col-md-5" aria-label="Card selection">
 		{% for Stash in stash_list %}

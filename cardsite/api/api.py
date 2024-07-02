@@ -9,17 +9,18 @@ from django.template import loader
 from django.utils.translation import gettext_lazy as text
 
 from decks.models import Card, Deck
-from cardstash.models import CardAllocation
+from inventory.models import StorageLocale
+from cardstash.models import CardAllocation, CardStash
 
 def api_error( reason ):
     return HttpResponseBadRequest('Malformed request: '+reason)
 
 def access_requires_auth( func ):
-    def check_auth( request ):
+    def check_auth( request, *args, **kwargs ):
         if not request.user.is_authenticated:
             print('Not authorized!')
             return redirect('/login')
-        return func( request )
+        return func( request, *args, **kwargs )
     return check_auth
 
 
@@ -162,7 +163,12 @@ def update_stash( request, stash_uuid ):
 
 @access_requires_auth
 @transaction.atomic
-def __update_calloc( quantity, stash_uuid, card_id ):
+def __update_calloc( request, quantity, stash_uuid, card_id ):
+    try:
+        Card.objects.get(card_id=card_id)
+    except:
+        set_, num = card_id.split('-')
+        card_id = set_ + '-' + num.lstrip('0')
     if int(quantity) < 1:
         try:
             CardAllocation.objects.get(
@@ -182,13 +188,46 @@ def __update_calloc( quantity, stash_uuid, card_id ):
 
 @access_requires_auth
 @transaction.atomic
+def update_from_decklist( request ):
+    data = json.loads(request.body.decode("utf-8"))
+    for row in data['update_data']:
+        stash_uuid = data['uuid']
+        card_id = row['card_id']
+        qty = row['quantity']
+        __update_calloc( request, qty, stash_uuid, card_id )
+    return HttpResponse(status=204)
+
+@access_requires_auth
+@transaction.atomic
+def update_from_tabular( request ):
+    stash_map = {}
+    data = json.loads(request.body.decode("utf-8"))
+    for row in data['update_data']:
+        if 'undefined' in row['card_id']:
+            continue
+        stash_name = row['stash_name']
+        if stash_name not in stash_map:
+            stash_result = CardStash.objects.filter(name=stash_name)
+            if len(stash_result) == 0:
+                stash_inst = StorageLocale.objects.create(name=stash_name,description='Automatically created on import.')
+            else:
+                stash_inst = stash_result[0]
+            stash_map[stash_name] = stash_inst.uuid
+        stash_uuid = stash_map[stash_name]
+        card_id = row['card_id']
+        qty = row['quantity']
+        __update_calloc( request, qty, stash_uuid, card_id )
+    return HttpResponse(status=204)
+
+@access_requires_auth
+@transaction.atomic
 def move_cards_from_to( request ):
     def call_update( direction, data ):
         for row in data[ direction ]['update_data']:
             stash_uuid = data[ direction ]['uuid']
             card_id = row['card_id']
             n_card_in_stash = row['n_card_in_stash']
-            __update_calloc( n_card_in_stash, stash_uuid, card_id )
+            __update_calloc( request, n_card_in_stash, stash_uuid, card_id )
 
     data = json.loads(request.body.decode("utf-8"))
     for direction in ['from_stash','to_stash']:

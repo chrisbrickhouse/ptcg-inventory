@@ -9,5 +9,6 @@ urlpatterns = [
         path( "<uuid:deck_uuid>/", views.deck_details, name = "deck_details" ),
         path( "<uuid:deck_uuid>/edit", views.edit_deck, name = "edit_deck" ),
         path( "<uuid:deck_uuid>/update_calloc", views.update_calloc, name = "update_calloc" ),
+        path( "<uuid:deck_uuid>/import/decklist", views.import_decklist, name = "import_decklist" ),
     ]
 

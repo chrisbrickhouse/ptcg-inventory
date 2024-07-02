@@ -1,4 +1,5 @@
 from django.contrib.auth.decorators import login_required
+from django.core.exceptions import ObjectDoesNotExist
 from django.forms import modelform_factory
 from django.shortcuts import render, HttpResponse
 
@@ -101,4 +102,11 @@ def stash_details( request, StashInstance, template_name ):
             request,
             template_name,
             context
+        )
+
+def import_tabular( request ):
+    return render(
+            request,
+            'data_import/tabular.html',
+            {}
         )
