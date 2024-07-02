@@ -1,18 +1,10 @@
 {% extends "base.html" %}
 
 {% block import %}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script>
-	var api_url = "{{ api_url }}";
-	var post_url = "{{ post_url }}";
-	var stash_uuid = "{{ Stash.uuid }}";
-	var csrf_token = "{{ csrf_token }}";
-</script>
+{% load render_bundle from webpack_loader %}
+{% render_bundle 'stash_edit' 'js' %}
 {% load static %}
 <link href="{% static 'cardstash/edit_stash.css' %}" rel="stylesheet" />
-<script src="{% static 'cardstash/stash_edit.js' %}"></script>
 {% endblock %}
 
 {% block title %} Editing {{ Stash.name }}{% endblock %}
@@ -33,4 +25,5 @@
 <div class="row">
 {% include 'cardstash/card_list_snippet.html' %}
 </div>
+<span id="data-span" style="display:none;" data-stash-uuid="{{Stash.uuid}}" data-post-url="{{post_url}}"></span>
 {% endblock %}
